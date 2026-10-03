@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#f7f0e4"/>
+  <circle cx="256" cy="210" r="120" fill="none" stroke="#6b4423" stroke-width="8"/>
+  <path d="M256 120c24 40 40 68 40 96 0 40-18 72-40 92-22-20-40-52-40-92 0-28 16-56 40-96z" fill="#8b5a2b"/>
+  <ellipse cx="256" cy="318" rx="70" ry="18" fill="#6b4423" opacity="0.2"/>
+  <text x="256" y="390" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#4a3728">Annapurna</text>
+  <text x="256" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#8b5a2b">POOJA PRODUCTS</text>
+</svg>

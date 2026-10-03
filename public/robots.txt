@@ -1,0 +1,20 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.swamyputharekulu.com/sitemap.xml
+
+# Crawl budget hygiene
+Disallow: /api/
+Disallow: /*/cart
+Disallow: /*/invoice
+
+# Allow product & share images for previews
+Allow: /products/
+Allow: /og-share.png
+Allow: /logo.png
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.webp

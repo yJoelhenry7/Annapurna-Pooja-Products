@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f3e8d8;
+  --foreground: #1f1610;
+  /* Brown-dominated · cream · white accents */
+  --burgundy-50: #f7efe4;
+  --burgundy-100: #ead9c0;
+  --burgundy-200: #d4b896;
+  --burgundy-300: #b8956a;
+  --burgundy-400: #9a7348;
+  --burgundy-500: #7a5230;
+  --burgundy-600: #6b4423;
+  --burgundy-700: #54351c;
+  --burgundy-800: #3d2816;
+  --burgundy-900: #2a1b10;
+  --maroon: #5c3a22;
+  --gold-50: #f7efe4;
+  --gold-100: #ead9c0;
+  --gold-200: #d4b896;
+  --gold-300: #b8956a;
+  --gold-400: #9a7348;
+  --gold-500: #7a5230;
+  --gold-600: #6b4423;
+  --gold-700: #54351c;
+  --gold-800: #3d2816;
+  --gold-900: #2a1b10;
+  --gold: #8b5e34;
+  --bronze: #5c3a22;
+  --deep: #3d2816;
+  --deep-soft: #5c3a22;
+  --cream: #f5ebe0;
+  --ivory: #e8d5bc;
+  --ink: #2a1b10;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-burgundy-50: var(--burgundy-50);
+  --color-burgundy-100: var(--burgundy-100);
+  --color-burgundy-200: var(--burgundy-200);
+  --color-burgundy-300: var(--burgundy-300);
+  --color-burgundy-400: var(--burgundy-400);
+  --color-burgundy-500: var(--burgundy-500);
+  --color-burgundy-600: var(--burgundy-600);
+  --color-burgundy-700: var(--burgundy-700);
+  --color-burgundy-800: var(--burgundy-800);
+  --color-burgundy-900: var(--burgundy-900);
+  --color-maroon: var(--maroon);
+  --color-gold-50: var(--gold-50);
+  --color-gold-100: var(--gold-100);
+  --color-gold-200: var(--gold-200);
+  --color-gold-300: var(--gold-300);
+  --color-gold-400: var(--gold-400);
+  --color-gold-500: var(--gold-500);
+  --color-gold-600: var(--gold-600);
+  --color-gold-700: var(--gold-700);
+  --color-gold-800: var(--gold-800);
+  --color-gold-900: var(--gold-900);
+  --color-gold: var(--gold);
+  --color-bronze: var(--bronze);
+  --color-deep: var(--deep);
+  --color-deep-soft: var(--deep-soft);
+  --color-cream: var(--cream);
+  --color-ivory: var(--ivory);
+  --color-ink: var(--ink);
+  --font-sans: var(--font-body), var(--font-telugu), ui-sans-serif, sans-serif;
+  --font-serif: var(--font-display), var(--font-telugu), ui-serif, Georgia, serif;
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% 14%, rgba(139, 94, 52, 0.28), transparent 34%),
+    radial-gradient(circle at 88% 78%, rgba(61, 40, 22, 0.18), transparent 38%),
+    linear-gradient(180deg, #ebe0d0 0%, #e0cdb4 38%, #d4b896 72%, #c9a97e 100%);
+  color: var(--foreground);
+  font-family: var(--font-body), var(--font-telugu), ui-sans-serif, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-display), var(--font-telugu), ui-serif, Georgia, serif;
+  letter-spacing: 0.015em;
+  font-weight: 600;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .invoice-workspace {
+    padding: 0 !important;
+  }
+
+  .invoice-preview-pane {
+    position: static !important;
+    max-width: none !important;
+  }
+
+  .invoice-sheet {
+    box-shadow: none !important;
+    max-width: none !important;
+    width: 100% !important;
+  }
+}

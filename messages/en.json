@@ -1,0 +1,580 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "features": "Features",
+    "occasions": "Occasions",
+    "contact": "Contact",
+    "orderNow": "Order Now",
+    "cart": "Cart",
+    "founders": "Our Story",
+    "location": "Location"
+  },
+  "hero": {
+    "tagline": "SACRED ESSENTIALS FOR EVERY RITUAL",
+    "title": "Annapurna Pooja Products",
+    "subtitle": "Purity for your home temple",
+    "legacy": "Trusted for Family Pujas",
+    "legacyQuote": "Carefully sourced pooja essentials — incense, diyas, brassware, and complete kits — so every aarti feels complete and auspicious.",
+    "description": "Shop 60+ pooja products for daily worship, festivals, weddings, and temple needs. Order easily on WhatsApp.",
+    "exploreButton": "Explore Products",
+    "orderButton": "Order Now",
+    "varieties": "60+ Products",
+    "pureFresh": "Temple Quality",
+    "customers": "Kits from ₹499",
+    "worldwideShipping": "Serving AP & Telangana",
+    "prevSweet": "Previous product",
+    "nextSweet": "Next product"
+  },
+  "products": {
+    "sectionTag": "OUR COLLECTION",
+    "title": "Pooja Products",
+    "description": "From daily puja to grand festivals — incense, diyas, brassware, complete kits, and sacred essentials.",
+    "categoryAll": "All",
+    "categoryIncense": "Incense & Dhoop",
+    "categoryDiyas": "Diyas & Lamps",
+    "categoryKits": "Puja Kits",
+    "categoryBrass": "Brass & Copper",
+    "categoryPowders": "Kumkum & Powders",
+    "categoryOils": "Oils & Camphor",
+    "categoryEssentials": "Sacred Essentials",
+    "orderButton": "Order on WhatsApp",
+    "addToCart": "Add to Cart",
+    "viewCart": "View Cart",
+    "added": "Added!",
+    "adding": "Adding...",
+    "bulkOrderText": "Need temple, wedding, or bulk orders? We're happy to help!",
+    "catalogButton": "View Full Catalog on WhatsApp",
+    "unitPack": "per pack",
+    "unitPiece": "per piece",
+    "unitSet": "per set",
+    "unitBottle": "per bottle",
+    "unitBox": "per box",
+    "pack": "per pack",
+    "perKg": "per set",
+    "sandalAgarbatti": {
+      "name": "Sandal Agarbatti",
+      "description": "Temple-grade sandalwood incense sticks for daily puja"
+    },
+    "roseAgarbatti": {
+      "name": "Rose Agarbatti",
+      "description": "Soft rose fragrance incense for home shrines"
+    },
+    "jasmineAgarbatti": {
+      "name": "Jasmine Agarbatti",
+      "description": "Fresh jasmine aroma for evening aarti"
+    },
+    "lobanDhoop": {
+      "name": "Loban Dhoop",
+      "description": "Traditional loban resin dhoop for pure ritual smoke"
+    },
+    "guggulDhoop": {
+      "name": "Guggul Dhoop",
+      "description": "Auspicious guggul dhoop used in havan and abhishekam"
+    },
+    "sambraniCups": {
+      "name": "Sambrani Cups",
+      "description": "Ready-to-light sambrani cups for festive fragrance"
+    },
+    "dryDhoopSticks": {
+      "name": "Dry Dhoop Sticks",
+      "description": "Long-burning dry dhoop sticks for daily worship"
+    },
+    "heenaAgarbatti": {
+      "name": "Heena Agarbatti",
+      "description": "Rich heena scent incense pack"
+    },
+    "premiumTempleIncense": {
+      "name": "Premium Temple Incense",
+      "description": "Thick, long-lasting incense preferred in temples"
+    },
+    "nagChampa": {
+      "name": "Nag Champa",
+      "description": "Classic nag champa incense with warm floral notes"
+    },
+    "clayDiyaSet": {
+      "name": "Clay Diya Set",
+      "description": "Hand-finished earthen diyas — pack of 12"
+    },
+    "brassDiya": {
+      "name": "Brass Diya",
+      "description": "Polished brass deepam for daily lighting"
+    },
+    "fiveWickDiya": {
+      "name": "Five-Wick Diya",
+      "description": "Pancha-mukha brass diya for special pujas"
+    },
+    "hangingLamp": {
+      "name": "Hanging Lamp",
+      "description": "Traditional hanging oil lamp for home temples"
+    },
+    "deepamStand": {
+      "name": "Deepam Stand",
+      "description": "Stable brass stand for elevated deepam"
+    },
+    "akhandDiya": {
+      "name": "Akhand Diya",
+      "description": "Long-burn akhand deepam vessel with lid"
+    },
+    "decorativeDiyaBox": {
+      "name": "Decorative Diya Box",
+      "description": "Painted festive diyas ready for Diwali and Kartika"
+    },
+    "cottonWicksPack": {
+      "name": "Cotton Wicks Pack",
+      "description": "Soft cotton wicks for oil and ghee lamps"
+    },
+    "dailyPujaKit": {
+      "name": "Daily Puja Kit",
+      "description": "Complete kit for morning and evening home puja"
+    },
+    "satyanarayanaKit": {
+      "name": "Satyanarayana Vratam Kit",
+      "description": "All essentials for Satyanarayana puja at home"
+    },
+    "ganeshChaturthiKit": {
+      "name": "Ganesh Chaturthi Kit",
+      "description": "Ganapati installation and visarjan essentials"
+    },
+    "lakshmiPujaKit": {
+      "name": "Lakshmi Puja Kit",
+      "description": "Varalakshmi and Friday Lakshmi worship pack"
+    },
+    "navagrahaKit": {
+      "name": "Navagraha Kit",
+      "description": "Items for navagraha shanti and graha dosha puja"
+    },
+    "grihaPraveshKit": {
+      "name": "Griha Pravesh Kit",
+      "description": "Housewarming puja samagri curated in one set"
+    },
+    "weddingPujaKit": {
+      "name": "Wedding Puja Kit",
+      "description": "Muhurtham and wedding ritual essentials bundle"
+    },
+    "festivalEssentialsKit": {
+      "name": "Festival Essentials Kit",
+      "description": "Handy kit for Sankranti, Dasara and other festivals"
+    },
+    "brassKalash": {
+      "name": "Brass Kalash",
+      "description": "Traditional brass kalash for kalasha sthapana"
+    },
+    "copperKalash": {
+      "name": "Copper Kalash",
+      "description": "Pure copper kalash preferred for abhishekam"
+    },
+    "brassBell": {
+      "name": "Brass Bell",
+      "description": "Clear-toned brass ghanta for aarti"
+    },
+    "pujaThaliSet": {
+      "name": "Puja Thali Set",
+      "description": "Complete brass thali with bowls and spoons"
+    },
+    "copperLota": {
+      "name": "Copper Lota",
+      "description": "Handcrafted copper lota for holy water"
+    },
+    "brassAartiPlate": {
+      "name": "Brass Aarti Plate",
+      "description": "Wide aarti plate with diya hold"
+    },
+    "ganeshBrassIdol": {
+      "name": "Ganesh Brass Idol",
+      "description": "Blessed brass Ganesha murti for home temple"
+    },
+    "lakshmiBrassIdol": {
+      "name": "Lakshmi Brass Idol",
+      "description": "Goddess Lakshmi brass murti for prosperity puja"
+    },
+    "shivaLingamStand": {
+      "name": "Shiva Lingam Stand",
+      "description": "Lingam with jaladhara stand for abhishekam"
+    },
+    "copperPanchapatra": {
+      "name": "Copper Panchapatra",
+      "description": "Panchapatra and uddharani set in pure copper"
+    },
+    "pureKumkum": {
+      "name": "Pure Kumkum",
+      "description": "Fine temple kumkum for tilak and offerings"
+    },
+    "haldiPowder": {
+      "name": "Haldi Powder",
+      "description": "Bright turmeric powder for rituals and kalyanam"
+    },
+    "vibhutiPack": {
+      "name": "Vibhuti Pack",
+      "description": "Sacred vibhuti ash for Shiva devotees"
+    },
+    "chandanPowder": {
+      "name": "Chandan Powder",
+      "description": "Cooling sandalwood powder for tilak"
+    },
+    "gulalColors": {
+      "name": "Gulal Colors",
+      "description": "Herbal festival gulal in auspicious shades"
+    },
+    "riceAkshata": {
+      "name": "Rice Akshata",
+      "description": "Turmeric-tinged rice for blessings and ashirvadam"
+    },
+    "sindhoorBox": {
+      "name": "Sindhoor Box",
+      "description": "Traditional sindhoor for mangalya rituals"
+    },
+    "abhishekamPowderSet": {
+      "name": "Abhishekam Powder Set",
+      "description": "Assorted powders for deity abhishekam"
+    },
+    "sesameOil": {
+      "name": "Sesame Oil",
+      "description": "Cold-pressed sesame oil for deepam lighting"
+    },
+    "coconutOilPuja": {
+      "name": "Coconut Oil (Puja)",
+      "description": "Pure coconut oil for lamps and anointing"
+    },
+    "gheeDeepam": {
+      "name": "Deepam Ghee",
+      "description": "Pure cow ghee ideal for nanda deepam"
+    },
+    "camphorTablets": {
+      "name": "Camphor Tablets",
+      "description": "Quick-light camphor tablets for aarti"
+    },
+    "camphorBlocks": {
+      "name": "Camphor Blocks",
+      "description": "Larger camphor blocks for temple-style aarti"
+    },
+    "roseWater": {
+      "name": "Rose Water",
+      "description": "Fragrant rose water for ashtothram and abhishekam"
+    },
+    "sandalOil": {
+      "name": "Sandal Oil",
+      "description": "Concentrated sandal oil for deity anointing"
+    },
+    "havanGhee": {
+      "name": "Havan Ghee",
+      "description": "Ritual ghee prepared for homa and havan"
+    },
+    "rudrakshaMala": {
+      "name": "Rudraksha Mala",
+      "description": "108-bead rudraksha mala for japa and meditation"
+    },
+    "sacredThread": {
+      "name": "Sacred Thread",
+      "description": "Cotton janeu / sacred thread pack"
+    },
+    "turmericCloth": {
+      "name": "Turmeric Cloth",
+      "description": "Yellow vastra for deity alankaram"
+    },
+    "havanSamagri": {
+      "name": "Havan Samagri",
+      "description": "Blended herbs and woods for havan fire"
+    },
+    "agarbattiStand": {
+      "name": "Agarbatti Stand",
+      "description": "Brass incense holder with ash catcher"
+    },
+    "pujaBellSmall": {
+      "name": "Small Puja Bell",
+      "description": "Compact brass bell for travel and small shrines"
+    },
+    "coconutSet": {
+      "name": "Coconut Offering Set",
+      "description": "Coconut with mango leaves style offering pack"
+    },
+    "betelNutPack": {
+      "name": "Betel Nut Pack",
+      "description": "Supari pack for traditional offerings"
+    }
+  },
+  "about": {
+    "tag": "OUR STORY",
+    "title": "Purity for Every Prayer",
+    "story": "Annapurna Pooja Products brings temple-quality essentials to your home — from morning deepam to festival havan. We curate incense, brassware, powders, oils, and complete puja kits so you can focus on devotion, not shopping lists.",
+    "handcrafted": "Ritual-Ready Kits",
+    "handcraftedDesc": "Pre-packed sets for daily puja, vratams, and festivals",
+    "certified": "Trusted Quality",
+    "certifiedDesc": "Carefully selected brass, oils, and samagri you can rely on",
+    "celebrating": "60+ Sacred Products",
+    "premiumIngredients": "Temple-Grade Items",
+    "premiumIngredientsDesc": "Incense, camphor, and oils suited for home temples",
+    "passion": "Devotional Care",
+    "passionDesc": "Packaged with respect for tradition and family rituals",
+    "heritage": "Annapurna Blessings",
+    "whyChooseUs": "Why Choose Us"
+  },
+  "footer": {
+    "tagline": "Sacred essentials for every ritual — daily puja to grand festivals",
+    "quickLinks": "Quick Links",
+    "products": "Our Products",
+    "contactUs": "Contact Us",
+    "location": "Andhra Pradesh & Telangana",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "brand": "Annapurna Pooja Products",
+    "brandSubtitle": "Sacred essentials for every ritual",
+    "deliveryLine": "Serving Andhra Pradesh & Telangana",
+    "orderWhatsApp": "Order on WhatsApp",
+    "madeWith": "Made with",
+    "madeIn": "for your home temple"
+  },
+  "features": {
+    "tag": "WHY FAMILIES CHOOSE US",
+    "title": "Everything Your Puja Needs",
+    "description": "From incense and diyas to complete festival kits — curated so every ritual feels complete.",
+    "orderButton": "Browse Products Now",
+    "sankrantiTitle": "60+ Pooja Products",
+    "sankrantiDesc": "Incense, brass, kits, oils, and sacred essentials",
+    "birthdayTitle": "Complete Puja Kits",
+    "birthdayDesc": "Ready packs for vratams, festivals, and housewarming",
+    "weddingTitle": "Wedding & Muhurtham",
+    "weddingDesc": "Samagri bundles for auspicious ceremonies",
+    "corporateTitle": "Temple & Bulk Orders",
+    "corporateDesc": "Supply for temples, events, and wholesale needs",
+    "festivalTitle": "Festival Ready",
+    "festivalDesc": "Diwali, Dasara, Sankranti & Kartika essentials",
+    "templeTitle": "Home Temple Essentials",
+    "templeDesc": "Daily deepam, aarti, and alankaram items",
+    "fastDeliveryTitle": "WhatsApp Ordering",
+    "fastDeliveryDesc": "Quick orders with clear packing & delivery",
+    "premiumQualityTitle": "Brown · Cream · Pure",
+    "premiumQualityDesc": "Warm, traditional presentation you can trust",
+    "customOrdersTitle": "AP & Telangana",
+    "customOrdersDesc": "Serving homes and temples across both states"
+  },
+  "contact": {
+    "tag": "GET IN TOUCH",
+    "title": "Order Now",
+    "description": "Ready for your next puja? Message us on WhatsApp for catalogs, kits, and bulk enquiries.",
+    "whatsappTitle": "Order via WhatsApp",
+    "whatsappDesc": "Browse products, confirm availability, and place your order directly on WhatsApp Business.",
+    "whatsappButton": "Open WhatsApp Catalog",
+    "otherWays": "Other Ways to Reach Us",
+    "contactLine": "Contact: Annapurna Pooja Products | Temple & bulk orders welcome",
+    "availableHours": "Available: Mon-Sat, 9 AM - 8 PM",
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "visitUs": "Visit Us",
+    "locationDetail": "Andhra Pradesh & Telangana",
+    "instantResponse": "Instant Response",
+    "securePayment": "Secure Payment",
+    "easyTracking": "Easy Tracking",
+    "chatSupport": "Chat Support",
+    "operatingHours": "Operating Hours",
+    "mondaySaturday": "Monday - Saturday:",
+    "hours": "9:00 AM - 8:00 PM",
+    "sunday": "Sunday:",
+    "closed": "By appointment",
+    "howToOrder": "How to Order?",
+    "step1Title": "Click WhatsApp",
+    "step1Desc": "Open our catalog on WhatsApp",
+    "step2Title": "Select Items",
+    "step2Desc": "Choose kits, diyas, incense & more",
+    "step3Title": "Pay & Receive",
+    "step3Desc": "Confirm payment and get delivery",
+    "whatsappMessage": "Hello! I'm interested in ordering from Annapurna Pooja Products.",
+    "bulkCta": "For temple, wedding & bulk orders:"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your Cart is Empty",
+    "emptyDesc": "Looks like you haven't added any items to your cart yet.",
+    "continueShopping": "Continue Shopping",
+    "orderSummary": "Order Summary",
+    "item": "item",
+    "items": "{count, plural, =1 {1 item} other {# items}}",
+    "quantity": "Quantity",
+    "price": "Price",
+    "remove": "Remove",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "checkout": "Checkout via WhatsApp",
+    "deliveryTitle": "Delivery Details",
+    "deliveryDesc": "Please provide your delivery information",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "fullNameRequired": "Full name is required",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+91 98765 43210",
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Please enter a valid phone number",
+    "address": "Delivery Address",
+    "addressPlaceholder": "Enter your complete address",
+    "addressRequired": "Delivery address is required",
+    "city": "City / State",
+    "cityPlaceholder": "Enter city and state",
+    "cityRequired": "City/State is required",
+    "pincode": "Pincode",
+    "pincodePlaceholder": "Enter 6-digit pincode",
+    "pincodeRequired": "Pincode is required",
+    "pincodeInvalid": "Please enter a valid 6-digit pincode",
+    "landmark": "Landmark (Optional)",
+    "landmarkPlaceholder": "Nearby landmark or reference point",
+    "useCurrentLocation": "Use Current Location",
+    "gettingLocation": "Getting Location...",
+    "yourDeliveryLocation": "Your delivery location",
+    "geoNotSupported": "Geolocation is not supported by your browser",
+    "geoError": "Unable to retrieve your location. Please enter address manually."
+  },
+  "offers": {
+    "tag": "SPECIAL OFFERINGS",
+    "title": "Gift & Festival Sets",
+    "description": "Curate auspicious gift sets for housewarming, weddings, and corporate celebrations.",
+    "giftHampers": "Puja Gift Sets",
+    "giftHampersDesc": "Build your own set — choose up to 5 of each item",
+    "giftHampersHint": "Customizable sacred gift packs. Select quantities for each item (0-5):",
+    "dryFruitPutharekulu": "Daily Puja Kit",
+    "kova": "Brass Kalash",
+    "chocolate": "Lakshmi Puja Kit",
+    "boost": "Sandal Agarbatti",
+    "samosa": "Puja Thali Set",
+    "featurePackaging": "Respectful packaging",
+    "featureGreeting": "Blessing note included",
+    "featureCustom": "Customizable selection",
+    "orderHamper": "Order Custom Set on WhatsApp",
+    "corporateTitle": "Temple & Corporate Orders",
+    "corporateDesc": "Bulk supply for temples, offices, and festive gifting",
+    "corpFeature1": "Minimum flexible quantities",
+    "corpFeature2": "Branded packing option",
+    "corpFeature3": "Timely delivery",
+    "startingFrom": "Starting from",
+    "inquire": "Inquire on WhatsApp",
+    "packagingTitle": "Careful Packaging",
+    "packagingDesc": "Secure packing for oils, brass & kits",
+    "panIndiaTitle": "AP & Telangana Delivery",
+    "panIndiaDesc": "Services across Andhra Pradesh & Telangana",
+    "supportTitle": "WhatsApp Support",
+    "supportDesc": "Quick help for product guidance",
+    "internationalOrders": "Orders Across AP & Telangana",
+    "worldwideDelivery": "Serving Andhra Pradesh & Telangana — Annapurna Pooja Products",
+    "whatsappHeader": "Hello! I'd like to order a custom Puja Gift Set from Annapurna Pooja Products:",
+    "whatsappSelection": "PUJA GIFT SET - CUSTOM SELECTION:",
+    "whatsappEmpty": "No items selected yet",
+    "whatsappFooter": "Please share pricing and delivery details. Thank you!"
+  },
+  "founders": {
+    "tag": "OUR PROMISE",
+    "title": "Devotion in Every Detail",
+    "description": "Annapurna Pooja Products is built to make ritual shopping simple — pure items, clear kits, and warm service for every family puja.",
+    "founder1Name": "Annapurna",
+    "founder1Role": "Brand",
+    "founder1Bio": "Named for abundance and nourishment — we bring complete pooja essentials so homes and temples never lack for a sacred offering.",
+    "founder2Name": "Our Team",
+    "founder2Role": "Curators & Service",
+    "founder2Bio": "A small team dedicated to sourcing brassware, incense, oils, and festival kits with care and traditional respect.",
+    "highlight": "Temple orders, wedding kits & custom bundles welcome"
+  },
+  "location": {
+    "tag": "FIND US",
+    "title": "Visit Us on Google Maps",
+    "description": "Find Annapurna Pooja Products on Google Maps — get directions and plan your visit.",
+    "openMaps": "Open Google Maps",
+    "callUs": "Call Now",
+    "addressLabel": "Andhra Pradesh & Telangana"
+  },
+  "seo": {
+    "title": "Annapurna Pooja Products | Sacred Essentials & Puja Kits",
+    "description": "Shop 60+ pooja products from Annapurna — incense, diyas, brassware, kumkum, oils, and complete puja kits. Order on WhatsApp across AP & Telangana.",
+    "keywords": "Annapurna Pooja Products, puja kit, agarbatti, brass kalash, diya, camphor, havan samagri, Lakshmi puja kit, temple essentials, Andhra pooja store",
+    "ogTitle": "Annapurna Pooja Products — Sacred Essentials for Every Ritual",
+    "ogDescription": "60+ pooja products · Complete kits · Brass & incense. Order on WhatsApp.",
+    "twitterTitle": "Annapurna Pooja Products",
+    "twitterDescription": "Temple-quality pooja essentials and kits for daily worship & festivals.",
+    "ogImageAlt": "Annapurna Pooja Products — sacred essentials",
+    "siteName": "Annapurna Pooja Products"
+  },
+  "invoice": {
+    "tag": "BILLING",
+    "title": "Create Invoice",
+    "description": "Fill customer and product details on the left. The tax invoice updates live on the right — print or save as PDF from your browser.",
+    "backHome": "Back to site",
+    "reset": "Reset",
+    "print": "Print / Save PDF",
+    "printHint": "Print or Save as PDF",
+    "preview": "Live preview",
+    "taxInvoice": "Tax Invoice",
+    "date": "Date",
+    "billTo": "Bill to",
+    "customerPlaceholder": "Customer name",
+    "orderDetails": "Order details",
+    "orderType": "Order type",
+    "payment": "Payment",
+    "item": "Item",
+    "unit": "Unit",
+    "qty": "Qty",
+    "rate": "Rate",
+    "amount": "Amount",
+    "noItems": "Add pooja products to begin this invoice.",
+    "unnamedItem": "Untitled item",
+    "subtotal": "Subtotal",
+    "packaging": "Packaging",
+    "delivery": "Delivery",
+    "discount": "Discount",
+    "grandTotal": "Grand total",
+    "notes": "Notes",
+    "thankYou": "Thank you for choosing Annapurna Pooja Products.",
+    "authorisedSignatory": "Authorised Signatory",
+    "addItem": "Add item",
+    "removeItem": "Remove item",
+    "liveTotal": "Invoice total",
+    "sections": {
+      "invoice": "Invoice details",
+      "customer": "Customer",
+      "items": "Pooja products",
+      "charges": "Charges & notes"
+    },
+    "fields": {
+      "invoiceNumber": "Invoice number",
+      "invoiceDate": "Invoice date",
+      "orderType": "Order type",
+      "payment": "Payment method",
+      "customerName": "Customer name",
+      "customerPhone": "Phone",
+      "customerAddress": "Address",
+      "customerCity": "City / town",
+      "customerPincode": "Pincode",
+      "itemName": "Product name",
+      "unit": "Unit",
+      "qty": "Quantity",
+      "rate": "Rate (INR)",
+      "packaging": "Packaging (INR)",
+      "delivery": "Delivery (INR)",
+      "discount": "Discount (INR)",
+      "notes": "Notes for customer"
+    },
+    "placeholders": {
+      "customerName": "e.g. Sita Devi / Sri Temple Committee",
+      "customerAddress": "House / street / landmark",
+      "notes": "e.g. Deliver before festival · Gift wrap requested"
+    },
+    "orderTypes": {
+      "counter": "Counter sale",
+      "whatsapp": "WhatsApp order",
+      "stall": "Event stall",
+      "bulk": "Bulk / wholesale",
+      "gift": "Gift set"
+    },
+    "paymentMethods": {
+      "cash": "Cash",
+      "upi": "UPI",
+      "bank": "Bank transfer",
+      "pending": "Pending"
+    },
+    "units": {
+      "pack": "Pack",
+      "kg": "Set",
+      "piece": "Piece"
+    },
+    "seo": {
+      "title": "Create Invoice",
+      "description": "Generate an Annapurna Pooja Products tax invoice for counter, WhatsApp, or bulk orders."
+    }
+  }
+}
