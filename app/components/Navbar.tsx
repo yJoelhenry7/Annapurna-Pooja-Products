@@ -26,14 +26,14 @@ export default function Navbar() {
     { name: t('contact'), href: "#contact" },
   ];
 
-  const linkClass = "text-[var(--cream)] hover:text-[var(--ivory)]";
+  const linkClass = "text-[var(--ink)] hover:text-[var(--bronze)]";
 
   return (
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
-      className="fixed w-full z-50 transition-all duration-300 bg-[var(--deep)]/95 backdrop-blur-md shadow-md border-b border-[var(--ivory)]/25"
+      className="fixed w-full z-50 transition-all duration-300 bg-white/95 backdrop-blur-md shadow-md border-b border-[var(--gold)]/30"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -85,14 +85,14 @@ export default function Navbar() {
               >
                 <FaShoppingCart className="h-5 w-5" />
                 {cartItemCount > 0 && (
-                  <span className="bg-[var(--ivory)] text-[var(--deep)] text-xs font-bold rounded-full px-2 py-0.5 min-w-[22px] text-center">
+                  <span className="bg-[var(--deep)] text-[var(--cream)] text-xs font-bold rounded-full px-2 py-0.5 min-w-[22px] text-center">
                     {cartItemCount}
                   </span>
                 )}
               </Link>
               <a
                 href="#contact"
-                className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-[var(--cream)] px-4 xl:px-5 py-2 font-sans text-sm font-semibold leading-none text-[var(--deep)] shadow-md transition-all duration-300 hover:bg-[var(--ivory)] hover:shadow-lg"
+                className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-[var(--deep)] px-4 xl:px-5 py-2 font-sans text-sm font-semibold leading-none text-[var(--cream)] shadow-md transition-all duration-300 hover:bg-[var(--bronze)] hover:shadow-lg"
               >
                 {t('orderNow')}
               </a>
@@ -103,7 +103,7 @@ export default function Navbar() {
           <div className="lg:hidden flex items-center gap-2">
             <a
               href="#contact"
-              className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-[var(--cream)] px-4 py-2 font-sans text-sm font-semibold leading-none text-[var(--deep)] shadow-md transition-all duration-300 hover:bg-[var(--ivory)]"
+              className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-[var(--deep)] px-4 py-2 font-sans text-sm font-semibold leading-none text-[var(--cream)] shadow-md transition-all duration-300 hover:bg-[var(--bronze)]"
             >
               {t('orderNow')}
             </a>
@@ -132,7 +132,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="lg:hidden bg-[var(--deep)]/98 backdrop-blur-md border-t border-[var(--ivory)]/20"
+            className="lg:hidden bg-white/98 backdrop-blur-md border-t border-[var(--gold)]/20"
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {navItems.map((item, index) => (
@@ -144,7 +144,7 @@ export default function Navbar() {
                   transition={{ duration: 0.3, delay: index * 0.1 }}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-[var(--cream)] hover:text-white hover:bg-[var(--bronze)]/40 block px-3 py-3 text-base font-medium transition-all duration-300 rounded-lg"
+                  className="text-[var(--ink)] hover:text-[var(--bronze)] hover:bg-[var(--gold-50)] block px-3 py-3 text-base font-medium transition-all duration-300 rounded-lg"
                 >
                   {item.name}
                 </motion.a>
@@ -168,12 +168,12 @@ export default function Navbar() {
                 <Link
                   href={`/${locale}/cart`}
                   onClick={() => setIsOpen(false)}
-                  className="flex items-center gap-3 text-[var(--cream)] hover:text-white transition-colors duration-300"
+                  className="flex items-center gap-3 text-[var(--ink)] hover:text-[var(--bronze)] transition-colors duration-300"
                 >
                   <FaShoppingCart className="h-5 w-5" />
                   <span>{t('cart')}</span>
                   {cartItemCount > 0 && (
-                    <span className="bg-[var(--ivory)] text-[var(--deep)] text-sm font-bold rounded-full px-2.5 py-0.5 min-w-[24px] text-center">
+                    <span className="bg-[var(--deep)] text-[var(--cream)] text-sm font-bold rounded-full px-2.5 py-0.5 min-w-[24px] text-center">
                       {cartItemCount}
                     </span>
                   )}
@@ -182,7 +182,7 @@ export default function Navbar() {
               <a
                 href="#contact"
                 onClick={() => setIsOpen(false)}
-                className="mx-3 mt-4 inline-flex w-[calc(100%-1.5rem)] items-center justify-center whitespace-nowrap rounded-full bg-[var(--cream)] px-5 py-3 text-center font-sans text-base font-semibold leading-none text-[var(--deep)] transition-all duration-300 hover:bg-[var(--ivory)]"
+                className="mx-3 mt-4 inline-flex w-[calc(100%-1.5rem)] items-center justify-center whitespace-nowrap rounded-full bg-[var(--deep)] px-5 py-3 text-center font-sans text-base font-semibold leading-none text-[var(--cream)] transition-all duration-300 hover:bg-[var(--bronze)]"
               >
                 {t('orderNow')}
               </a>

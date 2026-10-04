@@ -8,6 +8,7 @@ import { useState, useEffect, useCallback, useId } from "react";
 import Image from "next/image";
 import FolkSectionBackground from "./FolkSectionBackground";
 import { HERO_PRODUCTS } from "../data/products";
+import HangingRopeDiyas from "./HangingRopeDiyas";
 
 function useIsCompact() {
   const [compact, setCompact] = useState(false);
@@ -49,8 +50,8 @@ function getOrbitPose(offset: number, compact: boolean) {
   };
 }
 
-/** Lotus-petal mandala plate — sacred thali framing for products */
-function LotusThaliFrame({
+/** Square product frame with circular border accents */
+function SquareRoundFrame({
   src,
   alt,
   isActive,
@@ -63,28 +64,20 @@ function LotusThaliFrame({
 }) {
   const uid = useId().replace(/:/g, "");
   const ringGrad = `ring-${uid}`;
-  const petalGrad = `petal-${uid}`;
-
-  const petals = Array.from({ length: 12 }, (_, i) => {
-    const angle = (i * 30 * Math.PI) / 180;
-    const cx = 100 + Math.cos(angle) * 78;
-    const cy = 100 + Math.sin(angle) * 78;
-    const rot = i * 30 + 90;
-    return { cx, cy, rot, i };
-  });
+  const plateGrad = `plate-${uid}`;
 
   return (
     <div className="relative h-full w-full">
       <div
-        className={`pointer-events-none absolute left-1/2 top-1/2 h-[92%] w-[92%] -translate-x-1/2 -translate-y-1/2 rounded-full blur-xl transition-opacity ${
+        className={`pointer-events-none absolute left-1/2 top-1/2 h-[88%] w-[88%] -translate-x-1/2 -translate-y-1/2 rounded-[28%] blur-xl transition-opacity ${
           isActive
-            ? "bg-[radial-gradient(circle,rgba(196,160,116,0.4)_0%,transparent_68%)] opacity-100"
-            : "bg-[radial-gradient(circle,rgba(92,58,34,0.18)_0%,transparent_70%)] opacity-80"
+            ? "bg-[radial-gradient(circle,rgba(196,160,116,0.38)_0%,transparent_68%)] opacity-100"
+            : "bg-[radial-gradient(circle,rgba(92,58,34,0.16)_0%,transparent_70%)] opacity-80"
         }`}
         aria-hidden
       />
 
-      {/* Petal ring spins slowly; product stays upright */}
+      {/* Soft circular orbit ring behind the square */}
       <motion.svg
         className="absolute inset-0 h-full w-full"
         viewBox="0 0 200 200"
@@ -93,86 +86,111 @@ function LotusThaliFrame({
         animate={isActive ? { rotate: 360 } : { rotate: 0 }}
         transition={
           isActive
-            ? { duration: 56, repeat: Infinity, ease: "linear" }
-            : { duration: 0.45 }
+            ? { duration: 48, repeat: Infinity, ease: "linear" }
+            : { duration: 0.4 }
         }
       >
         <defs>
-          <linearGradient id={ringGrad} x1="30" y1="30" x2="170" y2="170">
-            <stop offset="0%" stopColor={isActive ? "#e8d0a8" : "#d4b896"} />
-            <stop offset="50%" stopColor={isActive ? "#a67c52" : "#8b5e34"} />
-            <stop offset="100%" stopColor={isActive ? "#5c3a22" : "#4a2e18"} />
+          <linearGradient id={ringGrad} x1="20" y1="20" x2="180" y2="180">
+            <stop offset="0%" stopColor={isActive ? "#fff8e8" : "#faf3e4"} />
+            <stop offset="45%" stopColor={isActive ? "#c9a84c" : "#b8956a"} />
+            <stop offset="100%" stopColor={isActive ? "#5c4528" : "#3d2e1a"} />
           </linearGradient>
-          <radialGradient id={petalGrad} cx="50%" cy="40%" r="60%">
-            <stop offset="0%" stopColor={isActive ? "#f3e4cc" : "#e8d5bc"} />
-            <stop offset="100%" stopColor={isActive ? "#b8956a" : "#9a7348"} />
-          </radialGradient>
         </defs>
-
-        {petals.map(({ cx, cy, rot, i }) => (
-          <ellipse
-            key={i}
-            cx={cx}
-            cy={cy}
-            rx="16"
-            ry="22"
-            fill={`url(#${petalGrad})`}
-            stroke={isActive ? "#6b4423" : "#5c3a22"}
-            strokeWidth="1.1"
-            opacity={isActive ? 0.95 : 0.75}
-            transform={`rotate(${rot} ${cx} ${cy})`}
-          />
-        ))}
-
         <circle
           cx="100"
           cy="100"
-          r="68"
-          fill={`url(#${ringGrad})`}
-          stroke={isActive ? "#8b5e34" : "#6b4423"}
-          strokeWidth={isActive ? 3.5 : 2.5}
+          r="92"
+          fill="none"
+          stroke={`url(#${ringGrad})`}
+          strokeWidth={isActive ? 2.2 : 1.4}
+          strokeDasharray={isActive ? "6 10" : "3 12"}
+          opacity={isActive ? 0.85 : 0.45}
         />
         <circle
           cx="100"
           cy="100"
-          r="60"
-          fill={isActive ? "#fff8f0" : "#f5ebe0"}
-          opacity="0.92"
-        />
-        <circle
-          cx="100"
-          cy="100"
-          r="56"
+          r="84"
           fill="none"
           stroke={isActive ? "#c4a074" : "#b8956a"}
-          strokeWidth="1.2"
-          opacity="0.55"
-          strokeDasharray="2 6"
+          strokeWidth="1"
+          opacity={isActive ? 0.35 : 0.2}
         />
       </motion.svg>
 
-      <div className="absolute left-1/2 top-1/2 h-[52%] w-[52%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full">
-        <div className="relative h-full w-full bg-gradient-to-b from-white to-[var(--ivory)]">
-          <Image
-            src={src}
-            alt={alt}
-            fill
-            className="object-contain object-center p-1.5"
-            sizes="(max-width: 768px) 120px, 160px"
-            priority={priority}
-            unoptimized
-          />
+      {/* Square plate with rounded (circular) corners */}
+      <div className="absolute inset-[10%] flex items-center justify-center">
+        <div
+          className={`relative h-full w-full overflow-hidden rounded-[22%] border transition-shadow duration-300 ${
+            isActive
+              ? "border-[var(--bronze)]/70 shadow-[0_14px_36px_rgba(61,46,26,0.22),inset_0_0_0_1px_rgba(201,168,76,0.35)]"
+              : "border-[var(--bronze)]/35 shadow-[0_8px_20px_rgba(61,46,26,0.12)]"
+          }`}
+        >
+          <svg
+            className="pointer-events-none absolute inset-0 h-full w-full"
+            viewBox="0 0 200 200"
+            preserveAspectRatio="none"
+            aria-hidden
+          >
+            <defs>
+              <linearGradient id={plateGrad} x1="0" y1="0" x2="200" y2="200">
+                <stop offset="0%" stopColor={isActive ? "#fffdf8" : "#faf6ee"} />
+                <stop offset="55%" stopColor={isActive ? "#f3e6d0" : "#f0e6d4"} />
+                <stop offset="100%" stopColor={isActive ? "#e8d4b0" : "#e5d5bc"} />
+              </linearGradient>
+            </defs>
+            <rect
+              x="0"
+              y="0"
+              width="200"
+              height="200"
+              rx="44"
+              ry="44"
+              fill={`url(#${plateGrad})`}
+            />
+            <rect
+              x="8"
+              y="8"
+              width="184"
+              height="184"
+              rx="38"
+              ry="38"
+              fill="none"
+              stroke={isActive ? "#8b5e34" : "#6b4423"}
+              strokeWidth={isActive ? 2.4 : 1.6}
+              opacity="0.55"
+            />
+            <rect
+              x="16"
+              y="16"
+              width="168"
+              height="168"
+              rx="32"
+              ry="32"
+              fill="none"
+              stroke={isActive ? "#c4a074" : "#b8956a"}
+              strokeWidth="1"
+              opacity="0.4"
+              strokeDasharray="3 7"
+            />
+          </svg>
+
+          <div className="absolute inset-[14%] overflow-hidden rounded-[18%] bg-gradient-to-b from-white to-[var(--ivory)]">
+            <div className="relative h-full w-full">
+              <Image
+                src={src}
+                alt={alt}
+                fill
+                className="object-contain object-center p-2"
+                sizes="(max-width: 768px) 140px, 180px"
+                priority={priority}
+                unoptimized
+              />
+            </div>
+          </div>
         </div>
       </div>
-
-      <div
-        className={`pointer-events-none absolute left-1/2 top-1/2 h-[56%] w-[56%] -translate-x-1/2 -translate-y-1/2 rounded-full border transition-colors ${
-          isActive
-            ? "border-[var(--bronze)]/50 shadow-[inset_0_0_20px_rgba(166,124,82,0.2)]"
-            : "border-[var(--bronze)]/25"
-        }`}
-        aria-hidden
-      />
     </div>
   );
 }
@@ -205,9 +223,19 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[100svh] items-center overflow-hidden pb-12 pt-24 md:pb-16 md:pt-28"
+      className="relative flex min-h-[100svh] items-center overflow-x-clip overflow-y-visible pb-12 pt-24 md:pb-16 md:pt-28"
     >
-      <FolkSectionBackground variant="gold" />
+      <FolkSectionBackground variant="gold" hideCorners />
+
+      {/* Triangle wall-hangings — one diya each side */}
+      <HangingRopeDiyas
+        className="left-2 top-24 h-14 w-12 sm:left-3 sm:top-28 sm:h-16 sm:w-14 md:left-5 md:h-20 md:w-16 lg:h-24 lg:w-[4.5rem]"
+        delay={0}
+      />
+      <HangingRopeDiyas
+        className="right-2 top-24 h-14 w-12 sm:right-3 sm:top-28 sm:h-16 sm:w-14 md:right-5 md:h-20 md:w-16 lg:h-24 lg:w-[4.5rem]"
+        delay={0.35}
+      />
 
       <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:gap-6 lg:px-8 xl:gap-10">
         <motion.div
@@ -344,7 +372,7 @@ export default function Hero() {
                     aria-label={tProducts(product.nameKey)}
                     aria-current={isActive ? "true" : undefined}
                   >
-                    <LotusThaliFrame
+                    <SquareRoundFrame
                       src={product.src}
                       alt={tProducts(product.nameKey)}
                       isActive={isActive}

@@ -1,580 +1,580 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "about": "About",
-    "features": "Features",
-    "occasions": "Occasions",
-    "contact": "Contact",
-    "orderNow": "Order Now",
-    "cart": "Cart",
-    "founders": "Mana Katha",
-    "location": "Location"
+    "home": "హోమ్",
+    "products": "ఉత్పత్తులు",
+    "about": "మా గురించి",
+    "features": "విశేషాలు",
+    "occasions": "సందర్భాలు",
+    "contact": "సంప్రదించండి",
+    "orderNow": "ఇప్పుడే ఆర్డర్ చేయండి",
+    "cart": "కార్ట్",
+    "founders": "మా కథ",
+    "location": "స్థానం"
   },
   "hero": {
-    "tagline": "PRATI PUJAKU PAVITRA AVASARALU",
-    "title": "Annapurna Pooja Products",
-    "subtitle": "Mee inti gudiki parishuddhata",
-    "legacy": "Kutumba pujalaku nammakam",
-    "legacyQuote": "Jagratta ga select chesina pooja essentials — agarbatti, deepalu, brassware, complete kits — prati aarti sampurnanga undela.",
-    "description": "Rozuvaari puja, pandugalu, vivahalu & aalaya avasaralaku 60+ pooja products. WhatsApp lo sulabhanga order cheyandi.",
-    "exploreButton": "Products chudandi",
-    "orderButton": "Order Now",
-    "varieties": "60+ Products",
-    "pureFresh": "Temple Quality",
-    "customers": "Kits ₹499 nundi",
-    "worldwideShipping": "AP & Telangana",
-    "prevSweet": "Previous product",
-    "nextSweet": "Next product"
+    "tagline": "ప్రతి పూజకు పవిత్రమైన అవసరాలు",
+    "title": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్",
+    "subtitle": "మీ ఇంటి గుడికి పవిత్రత",
+    "legacy": "కుటుంబ పూజలకు నమ్మకమైనవి",
+    "legacyQuote": "జాగ్రత్తగా ఎంపిక చేసిన పూజా సామగ్రి — అగరబత్తులు, దీపాలు, ఇత్తడి వస్తువులు మరియు పూర్తి కిట్లు — ప్రతి ఆరతి పూర్తిగా మరియు శుభంగా ఉండేలా.",
+    "description": "రోజువారీ పూజ, పండుగలు, పెళ్లిళ్లు మరియు దేవాలయ అవసరాలకు 60+ పూజా ఉత్పత్తులు. వాట్సాప్‌లో సులభంగా ఆర్డర్ చేయండి.",
+    "exploreButton": "ఉత్పత్తులును చూడండి",
+    "orderButton": "ఇప్పుడే ఆర్డర్ చేయండి",
+    "varieties": "60+ ఉత్పత్తులు",
+    "pureFresh": "దేవాలయ నాణ్యత",
+    "customers": "కిట్లు ₹499 నుండి",
+    "worldwideShipping": "ఆంధ్రప్రదేశ్ & తెలంగాణకు సేవ",
+    "prevSweet": "మునుపటి ఉత్పత్తి",
+    "nextSweet": "తదుపరి ఉత్పత్తి"
   },
   "products": {
-    "sectionTag": "MAA SEKARANA",
-    "title": "Pooja Products",
-    "description": "Rozuvaari puja nundi pandugalu varaku — agarbatti, deepalu, brass items, puja kits and more.",
-    "categoryAll": "Anni",
-    "categoryIncense": "Agarbatti & Dhoop",
-    "categoryDiyas": "Diyas & Lamps",
-    "categoryKits": "Puja Kits",
-    "categoryBrass": "Brass & Copper",
-    "categoryPowders": "Kumkum & Powders",
-    "categoryOils": "Oils & Camphor",
-    "categoryEssentials": "Sacred Essentials",
-    "orderButton": "WhatsApp lo Order",
-    "addToCart": "Cart ki Add",
-    "viewCart": "Cart chudandi",
-    "added": "Added!",
-    "adding": "Adding...",
-    "bulkOrderText": "Aalayam, vivaham leda bulk orders kavali aa? Memu sahayam chestamu!",
-    "catalogButton": "WhatsApp Catalog chudandi",
-    "unitPack": "per pack",
-    "unitPiece": "per piece",
-    "unitSet": "per set",
-    "unitBottle": "per bottle",
-    "unitBox": "per box",
-    "pack": "per pack",
-    "perKg": "per set",
+    "sectionTag": "మా సేకరణ",
+    "title": "పూజా ఉత్పత్తులు",
+    "description": "రోజువారీ పూజ నుండి గొప్ప పండుగల వరకు — అగరబత్తులు, దీపాలు, ఇత్తడి వస్తువులు, పూర్తి కిట్లు మరియు పవిత్ర సామగ్రి.",
+    "categoryAll": "అన్నీ",
+    "categoryIncense": "అగరబత్తి & ధూపం",
+    "categoryDiyas": "దీపాలు & లైట్లు",
+    "categoryKits": "పూజా కిట్లు",
+    "categoryBrass": "ఇత్తడి & రాగి",
+    "categoryPowders": "కుంకుమ & పొడులు",
+    "categoryOils": "నూనెలు & కర్పూరం",
+    "categoryEssentials": "పవిత్ర సామగ్రి",
+    "orderButton": "వాట్సాప్‌లో ఆర్డర్ చేయండి",
+    "addToCart": "కార్ట్‌కు జోడించండి",
+    "viewCart": "కార్ట్ చూడండి",
+    "added": "జోడించబడింది!",
+    "adding": "జోడిస్తోంది...",
+    "bulkOrderText": "దేవాలయం, పెళ్లి లేదా బల్క్ ఆర్డర్లు కావాలా? మేము సహాయం చేయడానికి సిద్ధంగా ఉన్నాము!",
+    "catalogButton": "వాట్సాప్‌లో పూర్తి కేటలాగ్ చూడండి",
+    "unitPack": "ప్యాక్‌కు",
+    "unitPiece": "ఒక్కొక్కటికి",
+    "unitSet": "సెట్‌కు",
+    "unitBottle": "బాటిల్‌కు",
+    "unitBox": "పెట్టెకు",
+    "pack": "ప్యాక్‌కు",
+    "perKg": "సెట్‌కు",
     "sandalAgarbatti": {
-      "name": "Sandal Agarbatti",
-      "description": "Rozuvaari pujaku temple-grade sandal agarbattulu"
+      "name": "చందన అగరబత్తి",
+      "description": "రోజువారీ పూజకు దేవాలయ నాణ్యత గల చందన అగరబత్తులు"
     },
     "roseAgarbatti": {
-      "name": "Rose Agarbatti",
-      "description": "Inti gudiki gulabi suvasana agarbattulu"
+      "name": "రోజా అగరబత్తి",
+      "description": "ఇంటి గుడికి మృదువైన గులాబీ సువాసన అగరబత్తి"
     },
     "jasmineAgarbatti": {
-      "name": "Jasmine Agarbatti",
-      "description": "Sayantrapu aartiki malle suvasana"
+      "name": "మల్లె అగరబత్తి",
+      "description": "సాయంత్రం ఆరతికి తాజా మల్లె సువాసన"
     },
     "lobanDhoop": {
-      "name": "Loban Dhoop",
-      "description": "Pavitra dhoopam kosam traditional loban"
+      "name": "లోబాన్ ధూపం",
+      "description": "పవిత్ర ధూపం కోసం సాంప్రదాయ లోబాన్ రెసిన్ ధూపం"
     },
     "guggulDhoop": {
-      "name": "Guggul Dhoop",
-      "description": "Havanam and abhishekam kosam guggulam"
+      "name": "గుగ్గులం ధూపం",
+      "description": "హవనం మరియు అభిషేకంలో ఉపయోగించే శుభకరమైన గుగ్గులం ధూపం"
     },
     "sambraniCups": {
-      "name": "Sambrani Cups",
-      "description": "Panduga suvasanaku ready sambrani cups"
+      "name": "సంబ్రాణి కప్పులు",
+      "description": "పండుగ సువాసనకు వెంటనే వెలిగించే సంబ్రాణి కప్పులు"
     },
     "dryDhoopSticks": {
-      "name": "Dry Dhoop Sticks",
-      "description": "Rozuvaari pujaku long-burning dhoop sticks"
+      "name": "పొడి ధూపం కర్రలు",
+      "description": "రోజువారీ పూజకు ఎక్కువసేపు మండే పొడి ధూపం కర్రలు"
     },
     "heenaAgarbatti": {
-      "name": "Heena Agarbatti",
-      "description": "Mehendi suvasana agarbatti pack"
+      "name": "హీనా అగరబత్తి",
+      "description": "గాఢమైన హీనా సువాసన అగరబత్తి ప్యాక్"
     },
     "premiumTempleIncense": {
-      "name": "Premium Temple Incense",
-      "description": "Aalayallo use chese long-lasting agarbatti"
+      "name": "ప్రీమియం దేవాలయ అగరబత్తి",
+      "description": "దేవాలయాల్లో ఇష్టపడే దట్టమైన, ఎక్కువసేపు మండే అగరబత్తి"
     },
     "nagChampa": {
-      "name": "Nag Champa",
-      "description": "Warm floral notes tho classic nag champa"
+      "name": "నాగ్ చంపా",
+      "description": "వెచ్చని పూల సువాసనతో క్లాసిక్ నాగ్ చంపా అగరబత్తి"
     },
     "clayDiyaSet": {
-      "name": "Clay Diya Set",
-      "description": "Chetito tayarina matti deepalu — 12 pack"
+      "name": "మట్టి దీపాల సెట్",
+      "description": "చేతితో తయారైన మట్టి దీపాలు — 12 ప్యాక్"
     },
     "brassDiya": {
-      "name": "Brass Diya",
-      "description": "Rozuvaari deepam kosam polished brass diya"
+      "name": "ఇత్తడి దీపం",
+      "description": "రోజువారీ వెలిగించడానికి పాలిష్ చేసిన ఇత్తడి దీపం"
     },
     "fiveWickDiya": {
-      "name": "Five-Wick Diya",
-      "description": "Pratyeka pujalaku pancha-mukha brass diya"
+      "name": "పంచముఖ దీపం",
+      "description": "ప్రత్యేక పూజలకు పంచముఖ ఇత్తడి దీపం"
     },
     "hangingLamp": {
-      "name": "Hanging Lamp",
-      "description": "Inti gudiki traditional hanging oil lamp"
+      "name": "వేలాడే దీపం",
+      "description": "ఇంటి గుడికి సాంప్రదాయ వేలాడే నూనె దీపం"
     },
     "deepamStand": {
-      "name": "Deepam Stand",
-      "description": "Ettaina deepam kosam stable brass stand"
+      "name": "దీపం స్టాండ్",
+      "description": "ఎత్తైన దీపానికి స్థిరమైన ఇత్తడి స్టాండ్"
     },
     "akhandDiya": {
-      "name": "Akhand Diya",
-      "description": "Mootha tho long-burn akhand deepam"
+      "name": "అఖండ దీపం",
+      "description": "మూతతో ఎక్కువసేపు మండే అఖండ దీప పాత్ర"
     },
     "decorativeDiyaBox": {
-      "name": "Decorative Diya Box",
-      "description": "Deepavali and Kartika kosam painted deepalu"
+      "name": "అలంకార దీపాల పెట్టె",
+      "description": "దీపావళి మరియు కార్తీకానికి సిద్ధంగా ఉన్న రంగు దీపాలు"
     },
     "cottonWicksPack": {
-      "name": "Cotton Wicks Pack",
-      "description": "Nune and neyyi deepalaku cotton wicks"
+      "name": "పత్తి వత్తుల ప్యాక్",
+      "description": "నూనె మరియు నెయ్యి దీపాలకు మృదువైన పత్తి వత్తులు"
     },
     "dailyPujaKit": {
-      "name": "Daily Puja Kit",
-      "description": "Udayam and sayantram inti puja complete kit"
+      "name": "రోజువారీ పూజా కిట్",
+      "description": "ఉదయం మరియు సాయంత్రం ఇంటి పూజకు పూర్తి కిట్"
     },
     "satyanarayanaKit": {
-      "name": "Satyanarayana Vratam Kit",
-      "description": "Intlo Satyanarayana puja essentials"
+      "name": "సత్యనారాయణ వ్రతం కిట్",
+      "description": "ఇంట్లో సత్యనారాయణ పూజకు అవసరమైన అన్ని వస్తువులు"
     },
     "ganeshChaturthiKit": {
-      "name": "Ganesh Chaturthi Kit",
-      "description": "Vinayaka pratishta and visarjan essentials"
+      "name": "గణేశ చతుర్థి కిట్",
+      "description": "గణపతి ప్రతిష్ఠ మరియు విసర్జన అవసరాలు"
     },
     "lakshmiPujaKit": {
-      "name": "Lakshmi Puja Kit",
-      "description": "Varalakshmi and Sukravaram Lakshmi puja pack"
+      "name": "లక్ష్మీ పూజా కిట్",
+      "description": "వరలక్ష్మి మరియు శుక్రవారం లక్ష్మీ పూజ ప్యాక్"
     },
     "navagrahaKit": {
-      "name": "Navagraha Kit",
-      "description": "Navagraha shanti and graha dosha puja items"
+      "name": "నవగ్రహ కిట్",
+      "description": "నవగ్రహ శాంతి మరియు గ్రహ దోష పూజ వస్తువులు"
     },
     "grihaPraveshKit": {
-      "name": "Griha Pravesh Kit",
-      "description": "Gruhapravesha puja samagri one set lo"
+      "name": "గృహప్రవేశ కిట్",
+      "description": "గృహప్రవేశ పూజా సామగ్రి ఒకే సెట్‌లో"
     },
     "weddingPujaKit": {
-      "name": "Wedding Puja Kit",
-      "description": "Muhurtham and vivaha puja essentials"
+      "name": "పెళ్లి పూజా కిట్",
+      "description": "ముహూర్తం మరియు పెళ్లి సంప్రదాయాలకు అవసరమైన వస్తువుల బండిల్"
     },
     "festivalEssentialsKit": {
-      "name": "Festival Essentials Kit",
-      "description": "Sankranti, Dasara and other pandugalaku kit"
+      "name": "పండుగ అవసరాల కిట్",
+      "description": "సంక్రాంతి, దసరా మరియు ఇతర పండుగలకు సౌకర్యవంతమైన కిట్"
     },
     "brassKalash": {
-      "name": "Brass Kalash",
-      "description": "Kalasha sthapana kosam traditional brass kalash"
+      "name": "ఇత్తడి కలశం",
+      "description": "కలశ స్థాపనకు సాంప్రదాయ ఇత్తడి కలశం"
     },
     "copperKalash": {
-      "name": "Copper Kalash",
-      "description": "Abhishekam kosam pure copper kalash"
+      "name": "రాగి కలశం",
+      "description": "అభిషేకానికి ఇష్టపడే స్వచ్ఛమైన రాగి కలశం"
     },
     "brassBell": {
-      "name": "Brass Bell",
-      "description": "Aartiki clear tone brass ghanta"
+      "name": "ఇత్తడి గంట",
+      "description": "ఆరతికి స్పష్టమైన శబ్దంతో ఇత్తడి ఘంట"
     },
     "pujaThaliSet": {
-      "name": "Puja Thali Set",
-      "description": "Bowls and spoons tho complete brass thali"
+      "name": "పూజా థాలీ సెట్",
+      "description": "గిన్నెలు మరియు చెంచాలతో పూర్తి ఇత్తడి థాలీ"
     },
     "copperLota": {
-      "name": "Copper Lota",
-      "description": "Pavitra jalaniki copper lota"
+      "name": "రాగి లోటా",
+      "description": "పవిత్ర జలానికి చేతితో తయారైన రాగి లోటా"
     },
     "brassAartiPlate": {
-      "name": "Brass Aarti Plate",
-      "description": "Deepam petadaniki wide aarti plate"
+      "name": "ఇత్తడి ఆరతి పళ్ళెం",
+      "description": "దీపం పట్టుకునే విస్తృత ఆరతి పళ్ళెం"
     },
     "ganeshBrassIdol": {
-      "name": "Ganesh Brass Idol",
-      "description": "Inti gudiki brass Vinayaka murti"
+      "name": "గణేశ ఇత్తడి విగ్రహం",
+      "description": "ఇంటి గుడికి ఆశీర్వదించబడిన ఇత్తడి గణేశ మూర్తి"
     },
     "lakshmiBrassIdol": {
-      "name": "Lakshmi Brass Idol",
-      "description": "Aishwarya pujaku Lakshmi brass murti"
+      "name": "లక్ష్మీ ఇత్తడి విగ్రహం",
+      "description": "సంపద పూజకు దేవి లక్ష్మీ ఇత్తడి మూర్తి"
     },
     "shivaLingamStand": {
-      "name": "Shiva Lingam Stand",
-      "description": "Abhishekam kosam jaladhara stand tho lingam"
+      "name": "శివలింగం స్టాండ్",
+      "description": "అభిషేకానికి జలధార స్టాండ్‌తో లింగం"
     },
     "copperPanchapatra": {
-      "name": "Copper Panchapatra",
-      "description": "Pure copper lo panchapatra and uddharani set"
+      "name": "రాగి పంచపాత్ర",
+      "description": "స్వచ్ఛమైన రాగిలో పంచపాత్ర మరియు ఉద్ధరణి సెట్"
     },
     "pureKumkum": {
-      "name": "Pure Kumkum",
-      "description": "Tilakam and naivedyam kosam temple kumkum"
+      "name": "శుద్ధ కుంకుమ",
+      "description": "తిలకం మరియు నైవేద్యాలకు మెత్తని దేవాలయ కుంకుమ"
     },
     "haldiPowder": {
-      "name": "Haldi Powder",
-      "description": "Pujalu and kalyanam kosam pasupu powder"
+      "name": "పసుపు పొడి",
+      "description": "ఆచారాలు మరియు కళ్యాణానికి ప్రకాశవంతమైన పసుపు పొడి"
     },
     "vibhutiPack": {
-      "name": "Vibhuti Pack",
-      "description": "Shiva bhaktulaku pavitra vibhuti"
+      "name": "విభూతి ప్యాక్",
+      "description": "శివ భక్తులకు పవిత్ర విభూతి భస్మం"
     },
     "chandanPowder": {
-      "name": "Chandan Powder",
-      "description": "Tilakam kosam chandanam powder"
+      "name": "చందనం పొడి",
+      "description": "తిలకానికి చల్లని చందనం పొడి"
     },
     "gulalColors": {
-      "name": "Gulal Colors",
-      "description": "Shubha rangullo herbal festival gulal"
+      "name": "గులాల్ రంగులు",
+      "description": "శుభకరమైన రంగుల్లో హెర్బల్ పండుగ గులాల్"
     },
     "riceAkshata": {
-      "name": "Rice Akshata",
-      "description": "Ashirvadalaku pasupu akshatalu"
+      "name": "బియ్యం అక్షత",
+      "description": "ఆశీర్వాదాలు మరియు అశీర్వాదం కోసం పసుపు రంగు బియ్యం"
     },
     "sindhoorBox": {
-      "name": "Sindhoor Box",
-      "description": "Mangalya pujalaku traditional sindhoor"
+      "name": "సింధూరం పెట్టె",
+      "description": "మాంగల్య ఆచారాలకు సాంప్రదాయ సింధూరం"
     },
     "abhishekamPowderSet": {
-      "name": "Abhishekam Powder Set",
-      "description": "Devata abhishekam kosam assorted powders"
+      "name": "అభిషేకం పొడుల సెట్",
+      "description": "దేవతా అభిషేకానికి వివిధ పొడులు"
     },
     "sesameOil": {
-      "name": "Sesame Oil",
-      "description": "Deepam kosam cold-pressed nuvvula nune"
+      "name": "నువ్వుల నూనె",
+      "description": "దీపం వెలిగించడానికి చల్లని పిండి నువ్వుల నూనె"
     },
     "coconutOilPuja": {
-      "name": "Coconut Oil (Puja)",
-      "description": "Deepalu and alankaram kosam coconut oil"
+      "name": "కొబ్బరి నూనె (పూజ)",
+      "description": "దీపాలు మరియు అభ్యంగనకు శుద్ధ కొబ్బరి నూనె"
     },
     "gheeDeepam": {
-      "name": "Deepam Ghee",
-      "description": "Nanda deepam kosam pure cow ghee"
+      "name": "దీపం నెయ్యి",
+      "description": "నందా దీపానికి అనువైన శుద్ధ ఆవు నెయ్యి"
     },
     "camphorTablets": {
-      "name": "Camphor Tablets",
-      "description": "Aartiki quick-light karpuram tablets"
+      "name": "కర్పూరం టాబ్లెట్లు",
+      "description": "ఆరతికి త్వరగా వెలిగే కర్పూరం టాబ్లెట్లు"
     },
     "camphorBlocks": {
-      "name": "Camphor Blocks",
-      "description": "Temple-style aartiki pedda karpuram blocks"
+      "name": "కర్పూరం బ్లాకులు",
+      "description": "దేవాలయ శైలి ఆరతికి పెద్ద కర్పూరం బ్లాకులు"
     },
     "roseWater": {
-      "name": "Rose Water",
-      "description": "Ashtotharam and abhishekam kosam rose water"
+      "name": "గులాబీ నీరు",
+      "description": "అష్టోత్తరం మరియు అభిషేకానికి సువాసన గులాబీ నీరు"
     },
     "sandalOil": {
-      "name": "Sandal Oil",
-      "description": "Devata alankaram kosam sandal oil"
+      "name": "చందన నూనె",
+      "description": "దేవతా అభ్యంగనకు సాంద్ర చందన నూనె"
     },
     "havanGhee": {
-      "name": "Havan Ghee",
-      "description": "Homam and havanam kosam ritual ghee"
+      "name": "హవన నెయ్యి",
+      "description": "హోమం మరియు హవనానికి తయారైన ఆచార నెయ్యి"
     },
     "rudrakshaMala": {
-      "name": "Rudraksha Mala",
-      "description": "Japam and dhyanam kosam 108 rudraksha mala"
+      "name": "రుద్రాక్ష మాల",
+      "description": "జపం మరియు ధ్యానానికి 108 పూసల రుద్రాక్ష మాల"
     },
     "sacredThread": {
-      "name": "Sacred Thread",
-      "description": "Cotton janeu / pavitra dharam pack"
+      "name": "యజ్ఞోపవీతం",
+      "description": "పత్తి జనేయు / పవిత్ర దారం ప్యాక్"
     },
     "turmericCloth": {
-      "name": "Turmeric Cloth",
-      "description": "Devata alankaram kosam pasupu vastra"
+      "name": "పసుపు వస్త్రం",
+      "description": "దేవతా అలంకారానికి పసుపు రంగు వస్త్రం"
     },
     "havanSamagri": {
-      "name": "Havan Samagri",
-      "description": "Havan agniki herbs and woods blend"
+      "name": "హవన సామగ్రి",
+      "description": "హవన అగ్నికి మిశ్రమ మూలికలు మరియు కర్రలు"
     },
     "agarbattiStand": {
-      "name": "Agarbatti Stand",
-      "description": "Ash catcher tho brass agarbatti stand"
+      "name": "అగరబత్తి స్టాండ్",
+      "description": "బూడిద పట్టే ఇత్తడి అగరబత్తి హోల్డర్"
     },
     "pujaBellSmall": {
-      "name": "Small Puja Bell",
-      "description": "Travel and small shrines kosam compact bell"
+      "name": "చిన్న పూజా గంట",
+      "description": "ప్రయాణం మరియు చిన్న గుడులకు చిన్న ఇత్తడి గంట"
     },
     "coconutSet": {
-      "name": "Coconut Offering Set",
-      "description": "Coconut and mamidi aakula style offering pack"
+      "name": "కొబ్బరి నైవేద్య సెట్",
+      "description": "మామిడి ఆకుల శైలితో కొబ్బరి నైవేద్య ప్యాక్"
     },
     "betelNutPack": {
-      "name": "Betel Nut Pack",
-      "description": "Traditional naivedyam kosam vakkalu pack"
+      "name": "వక్క ప్యాక్",
+      "description": "సాంప్రదాయ నైవేద్యాలకు సుపారి ప్యాక్"
     }
   },
   "about": {
-    "tag": "OUR STORY",
-    "title": "Purity for Every Prayer",
-    "story": "Annapurna Pooja Products brings temple-quality essentials to your home — from morning deepam to festival havan. We curate incense, brassware, powders, oils, and complete puja kits so you can focus on devotion, not shopping lists.",
-    "handcrafted": "Ritual-Ready Kits",
-    "handcraftedDesc": "Pre-packed sets for daily puja, vratams, and festivals",
-    "certified": "Trusted Quality",
-    "certifiedDesc": "Carefully selected brass, oils, and samagri you can rely on",
-    "celebrating": "60+ Sacred Products",
-    "premiumIngredients": "Temple-Grade Items",
-    "premiumIngredientsDesc": "Incense, camphor, and oils suited for home temples",
-    "passion": "Devotional Care",
-    "passionDesc": "Packaged with respect for tradition and family rituals",
-    "heritage": "Annapurna Blessings",
-    "whyChooseUs": "Why Choose Us"
+    "tag": "మా కథ",
+    "title": "ప్రతి ప్రార్థనకు పవిత్రత",
+    "story": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్ దేవాలయ నాణ్యత సామగ్రిని మీ ఇంటికి తీసుకువస్తుంది — ఉదయం దీపం నుండి పండుగ హవనం వరకు. అగరబత్తులు, ఇత్తడి వస్తువులు, పొడులు, నూనెలు మరియు పూర్తి పూజా కిట్లను మేము ఎంపిక చేస్తాము, మీరు భక్తిపై దృష్టి పెట్టవచ్చు — షాపింగ్ జాబితాలపై కాదు.",
+    "handcrafted": "పూజకు సిద్ధమైన కిట్లు",
+    "handcraftedDesc": "రోజువారీ పూజ, వ్రతాలు మరియు పండుగలకు ముందుగా ప్యాక్ చేసిన సెట్లు",
+    "certified": "నమ్మకమైన నాణ్యత",
+    "certifiedDesc": "మీరు నమ్మగల జాగ్రత్తగా ఎంపిక చేసిన ఇత్తడి, నూనెలు మరియు సామగ్రి",
+    "celebrating": "60+ పవిత్ర ఉత్పత్తులు",
+    "premiumIngredients": "దేవాలయ నాణ్యత వస్తువులు",
+    "premiumIngredientsDesc": "ఇంటి గుడులకు అనువైన అగరబత్తి, కర్పూరం మరియు నూనెలు",
+    "passion": "భక్తితో సేవ",
+    "passionDesc": "సంప్రదాయం మరియు కుటుంబ ఆచారాల పట్ల గౌరవంతో ప్యాక్ చేయబడింది",
+    "heritage": "అన్నపూర్ణ ఆశీస్సులు",
+    "whyChooseUs": "మమ్మల్ని ఎందుకు ఎంచుకోవాలి"
   },
   "footer": {
-    "tagline": "Sacred essentials for every ritual — daily puja to grand festivals",
-    "quickLinks": "Quick Links",
-    "products": "Our Products",
-    "contactUs": "Contact Us",
-    "location": "Andhra Pradesh & Telangana",
-    "followUs": "Follow Us",
-    "rights": "All rights reserved.",
-    "brand": "Annapurna Pooja Products",
-    "brandSubtitle": "Sacred essentials for every ritual",
-    "deliveryLine": "Serving Andhra Pradesh & Telangana",
-    "orderWhatsApp": "Order on WhatsApp",
-    "madeWith": "Made with",
-    "madeIn": "for your home temple"
+    "tagline": "ప్రతి పూజకు పవిత్ర సామగ్రి — రోజువారీ పూజ నుండి గొప్ప పండుగల వరకు",
+    "quickLinks": "త్వరిత లింకులు",
+    "products": "మా ఉత్పత్తులు",
+    "contactUs": "మమ్మల్ని సంప్రదించండి",
+    "location": "ఆంధ్రప్రదేశ్ & తెలంగాణ",
+    "followUs": "మమ్మల్ని అనుసరించండి",
+    "rights": "అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి.",
+    "brand": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్",
+    "brandSubtitle": "ప్రతి పూజకు పవిత్ర సామగ్రి",
+    "deliveryLine": "ఆంధ్రప్రదేశ్ & తెలంగాణకు సేవ",
+    "orderWhatsApp": "వాట్సాప్‌లో ఆర్డర్ చేయండి",
+    "madeWith": "తయారు చేయబడింది",
+    "madeIn": "మీ ఇంటి గుడి కోసం"
   },
   "features": {
-    "tag": "WHY FAMILIES CHOOSE US",
-    "title": "Everything Your Puja Needs",
-    "description": "From incense and diyas to complete festival kits — curated so every ritual feels complete.",
-    "orderButton": "Browse Products Now",
-    "sankrantiTitle": "60+ Pooja Products",
-    "sankrantiDesc": "Incense, brass, kits, oils, and sacred essentials",
-    "birthdayTitle": "Complete Puja Kits",
-    "birthdayDesc": "Ready packs for vratams, festivals, and housewarming",
-    "weddingTitle": "Wedding & Muhurtham",
-    "weddingDesc": "Samagri bundles for auspicious ceremonies",
-    "corporateTitle": "Temple & Bulk Orders",
-    "corporateDesc": "Supply for temples, events, and wholesale needs",
-    "festivalTitle": "Festival Ready",
-    "festivalDesc": "Diwali, Dasara, Sankranti & Kartika essentials",
-    "templeTitle": "Home Temple Essentials",
-    "templeDesc": "Daily deepam, aarti, and alankaram items",
-    "fastDeliveryTitle": "WhatsApp Ordering",
-    "fastDeliveryDesc": "Quick orders with clear packing & delivery",
-    "premiumQualityTitle": "Brown · Cream · Pure",
-    "premiumQualityDesc": "Warm, traditional presentation you can trust",
-    "customOrdersTitle": "AP & Telangana",
-    "customOrdersDesc": "Serving homes and temples across both states"
+    "tag": "కుటుంబాలు మమ్మల్ని ఎందుకు ఎంచుకుంటాయి",
+    "title": "మీ పూజకు కావలసినవన్నీ",
+    "description": "అగరబత్తులు మరియు దీపాల నుండి పూర్తి పండుగ కిట్ల వరకు — ప్రతి ఆచారం పూర్తిగా అనిపించేలా ఎంపిక చేయబడింది.",
+    "orderButton": "ఇప్పుడే ఉత్పత్తులను చూడండి",
+    "sankrantiTitle": "60+ పూజా ఉత్పత్తులు",
+    "sankrantiDesc": "అగరబత్తి, ఇత్తడి, కిట్లు, నూనెలు మరియు పవిత్ర సామగ్రి",
+    "birthdayTitle": "పూర్తి పూజా కిట్లు",
+    "birthdayDesc": "వ్రతాలు, పండుగలు మరియు గృహప్రవేశానికి సిద్ధమైన ప్యాక్లు",
+    "weddingTitle": "పెళ్లి & ముహూర్తం",
+    "weddingDesc": "శుభకరమైన వేడుకలకు సామగ్రి బండిల్స్",
+    "corporateTitle": "దేవాలయం & బల్క్ ఆర్డర్లు",
+    "corporateDesc": "దేవాలయాలు, కార్యక్రమాలు మరియు హోల్‌సేల్ అవసరాలకు సరఫరా",
+    "festivalTitle": "పండుగకు సిద్ధం",
+    "festivalDesc": "దీపావళి, దసరా, సంక్రాంతి & కార్తీక అవసరాలు",
+    "templeTitle": "ఇంటి గుడి అవసరాలు",
+    "templeDesc": "రోజువారీ దీపం, ఆరతి మరియు అలంకారం వస్తువులు",
+    "fastDeliveryTitle": "వాట్సాప్‌లో ఆర్డరింగ్",
+    "fastDeliveryDesc": "స్పష్టమైన ప్యాకింగ్ & డెలివరీతో త్వరిత ఆర్డర్లు",
+    "premiumQualityTitle": "బ్రౌన్ · క్రీమ్ · శుద్ధం",
+    "premiumQualityDesc": "మీరు నమ్మగల వెచ్చని, సాంప్రదాయ ప్రదర్శన",
+    "customOrdersTitle": "ఆంధ్రప్రదేశ్ & తెలంగాణ",
+    "customOrdersDesc": "రెండు రాష్ట్రాల్లోని ఇళ్ళు మరియు దేవాలయాలకు సేవ"
   },
   "contact": {
-    "tag": "GET IN TOUCH",
-    "title": "Order Now",
-    "description": "Ready for your next puja? Message us on WhatsApp for catalogs, kits, and bulk enquiries.",
-    "whatsappTitle": "Order via WhatsApp",
-    "whatsappDesc": "Browse products, confirm availability, and place your order directly on WhatsApp Business.",
-    "whatsappButton": "Open WhatsApp Catalog",
-    "otherWays": "Other Ways to Reach Us",
-    "contactLine": "Contact: Annapurna Pooja Products | Temple & bulk orders welcome",
-    "availableHours": "Available: Mon-Sat, 9 AM - 8 PM",
-    "callUs": "Call Us",
-    "emailUs": "Email Us",
-    "visitUs": "Visit Us",
-    "locationDetail": "Andhra Pradesh & Telangana",
-    "instantResponse": "Instant Response",
-    "securePayment": "Secure Payment",
-    "easyTracking": "Easy Tracking",
-    "chatSupport": "Chat Support",
-    "operatingHours": "Operating Hours",
-    "mondaySaturday": "Monday - Saturday:",
-    "hours": "9:00 AM - 8:00 PM",
-    "sunday": "Sunday:",
-    "closed": "By appointment",
-    "howToOrder": "How to Order?",
-    "step1Title": "Click WhatsApp",
-    "step1Desc": "Open our catalog on WhatsApp",
-    "step2Title": "Select Items",
-    "step2Desc": "Choose kits, diyas, incense & more",
-    "step3Title": "Pay & Receive",
-    "step3Desc": "Confirm payment and get delivery",
-    "whatsappMessage": "Hello! I'm interested in ordering from Annapurna Pooja Products.",
-    "bulkCta": "For temple, wedding & bulk orders:"
+    "tag": "సంప్రదించండి",
+    "title": "ఇప్పుడే ఆర్డర్ చేయండి",
+    "description": "మీ తదుపరి పూజకు సిద్ధమా? కేటలాగ్‌లు, కిట్లు మరియు బల్క్ విచారణలకు వాట్సాప్‌లోలో మెసేజ్ చేయండి.",
+    "whatsappTitle": "వాట్సాప్‌లో ద్వారా ఆర్డర్ చేయండి",
+    "whatsappDesc": "ఉత్పత్తులను చూడండి, లభ్యతను నిర్ధారించండి మరియు వాట్సాప్‌లో బిజినెస్‌లో నేరుగా ఆర్డర్ చేయండి.",
+    "whatsappButton": "వాట్సాప్‌లో కేటలాగ్ తెరవండి",
+    "otherWays": "మమ్మల్ని సంప్రదించే ఇతర మార్గాలు",
+    "contactLine": "సంప్రదింపు: అన్నపూర్ణ పూజా ప్రొడక్ట్స్ | దేవాలయం & బల్క్ ఆర్డర్లు స్వాగతం",
+    "availableHours": "అందుబాటు: సోమ-శని, ఉదయం 9 - రాత్రి 8",
+    "callUs": "మాకు కాల్ చేయండి",
+    "emailUs": "మాకు ఇమెయిల్ చేయండి",
+    "visitUs": "మమ్మల్ని సందర్శించండి",
+    "locationDetail": "ఆంధ్రప్రదేశ్ & తెలంగాణ",
+    "instantResponse": "తక్షణ ప్రతిస్పందన",
+    "securePayment": "సురక్షిత చెల్లింపు",
+    "easyTracking": "సులభమైన ట్రాకింగ్",
+    "chatSupport": "చాట్ సపోర్ట్",
+    "operatingHours": "పని గంటలు",
+    "mondaySaturday": "సోమవారం - శనివారం:",
+    "hours": "ఉదయం 9:00 - రాత్రి 8:00",
+    "sunday": "ఆదివారం:",
+    "closed": "అపాయింట్‌మెంట్ ద్వారా",
+    "howToOrder": "ఎలా ఆర్డర్ చేయాలి?",
+    "step1Title": "వాట్సాప్‌లో క్లిక్ చేయండి",
+    "step1Desc": "వాట్సాప్‌లోలో మా కేటలాగ్ తెరవండి",
+    "step2Title": "వస్తువులు ఎంచుకోండి",
+    "step2Desc": "కిట్లు, దీపాలు, అగరబత్తులు & మరిన్ని ఎంచుకోండి",
+    "step3Title": "చెల్లించి స్వీకరించండి",
+    "step3Desc": "చెల్లింపు నిర్ధారించి డెలివరీ పొందండి",
+    "whatsappMessage": "నమస్కారం! నేను అన్నపూర్ణ పూజా ప్రొడక్ట్స్ నుండి ఆర్డర్ చేయడానికి ఆసక్తి కలిగి ఉన్నాను.",
+    "bulkCta": "దేవాలయం, పెళ్లి & బల్క్ ఆర్డర్ల కోసం:"
   },
   "cart": {
-    "title": "Shopping Cart",
-    "empty": "Your Cart is Empty",
-    "emptyDesc": "Looks like you haven't added any items to your cart yet.",
-    "continueShopping": "Continue Shopping",
-    "orderSummary": "Order Summary",
-    "item": "item",
-    "items": "{count, plural, =1 {1 item} other {# items}}",
-    "quantity": "Quantity",
-    "price": "Price",
-    "remove": "Remove",
-    "subtotal": "Subtotal",
-    "total": "Total",
-    "checkout": "Checkout via WhatsApp",
-    "deliveryTitle": "Delivery Details",
-    "deliveryDesc": "Please provide your delivery information",
-    "fullName": "Full Name",
-    "fullNamePlaceholder": "Enter your full name",
-    "fullNameRequired": "Full name is required",
-    "phone": "Phone Number",
+    "title": "షాపింగ్ కార్ట్",
+    "empty": "మీ కార్ట్ ఖాళీగా ఉంది",
+    "emptyDesc": "మీరు ఇంకా కార్ట్‌కు ఏ వస్తువులను జోడించలేదు.",
+    "continueShopping": "షాపింగ్ కొనసాగించండి",
+    "orderSummary": "ఆర్డర్ సారాంశం",
+    "item": "వస్తువు",
+    "items": "{count, plural, =1 {1 వస్తువు} other {# వస్తువులు}}",
+    "quantity": "పరిమాణం",
+    "price": "ధర",
+    "remove": "తొలగించు",
+    "subtotal": "ఉపమొత్తం",
+    "total": "మొత్తం",
+    "checkout": "వాట్సాప్‌లో ద్వారా చెక్అవుట్",
+    "deliveryTitle": "డెలివరీ వివరాలు",
+    "deliveryDesc": "దయచేసి మీ డెలివరీ సమాచారం ఇవ్వండి",
+    "fullName": "పూర్తి పేరు",
+    "fullNamePlaceholder": "మీ పూర్తి పేరు నమోదు చేయండి",
+    "fullNameRequired": "పూర్తి పేరు అవసరం",
+    "phone": "ఫోన్ నంబర్",
     "phonePlaceholder": "+91 98765 43210",
-    "phoneRequired": "Phone number is required",
-    "phoneInvalid": "Please enter a valid phone number",
-    "address": "Delivery Address",
-    "addressPlaceholder": "Enter your complete address",
-    "addressRequired": "Delivery address is required",
-    "city": "City / State",
-    "cityPlaceholder": "Enter city and state",
-    "cityRequired": "City/State is required",
-    "pincode": "Pincode",
-    "pincodePlaceholder": "Enter 6-digit pincode",
-    "pincodeRequired": "Pincode is required",
-    "pincodeInvalid": "Please enter a valid 6-digit pincode",
-    "landmark": "Landmark (Optional)",
-    "landmarkPlaceholder": "Nearby landmark or reference point",
-    "useCurrentLocation": "Use Current Location",
-    "gettingLocation": "Getting Location...",
-    "yourDeliveryLocation": "Your delivery location",
-    "geoNotSupported": "Geolocation is not supported by your browser",
-    "geoError": "Unable to retrieve your location. Please enter address manually."
+    "phoneRequired": "ఫోన్ నంబర్ అవసరం",
+    "phoneInvalid": "దయచేసి చెల్లుబాటు అయ్యే ఫోన్ నంబర్ నమోదు చేయండి",
+    "address": "డెలివరీ చిరునామా",
+    "addressPlaceholder": "మీ పూర్తి చిరునామా నమోదు చేయండి",
+    "addressRequired": "డెలివరీ చిరునామా అవసరం",
+    "city": "నగరం / రాష్ట్రం",
+    "cityPlaceholder": "నగరం మరియు రాష్ట్రం నమోదు చేయండి",
+    "cityRequired": "నగరం/రాష్ట్రం అవసరం",
+    "pincode": "పిన్‌కోడ్",
+    "pincodePlaceholder": "6 అంకెల పిన్‌కోడ్ నమోదు చేయండి",
+    "pincodeRequired": "పిన్‌కోడ్ అవసరం",
+    "pincodeInvalid": "దయచేసి చెల్లుబాటు అయ్యే 6 అంకెల పిన్‌కోడ్ నమోదు చేయండి",
+    "landmark": "ల్యాండ్‌మార్క్ (ఐచ్ఛికం)",
+    "landmarkPlaceholder": "సమీప ల్యాండ్‌మార్క్ లేదా సూచన స్థలం",
+    "useCurrentLocation": "ప్రస్తుత స్థానం ఉపయోగించండి",
+    "gettingLocation": "స్థానం పొందుతోంది...",
+    "yourDeliveryLocation": "మీ డెలివరీ స్థానం",
+    "geoNotSupported": "మీ బ్రౌజర్ జియోలొకేషన్‌ను సపోర్ట్ చేయదు",
+    "geoError": "మీ స్థానాన్ని పొందలేకపోయాము. దయచేసి చిరునామాను మాన్యువల్‌గా నమోదు చేయండి."
   },
   "offers": {
-    "tag": "SPECIAL OFFERINGS",
-    "title": "Gift & Festival Sets",
-    "description": "Curate auspicious gift sets for housewarming, weddings, and corporate celebrations.",
-    "giftHampers": "Puja Gift Sets",
-    "giftHampersDesc": "Build your own set — choose up to 5 of each item",
-    "giftHampersHint": "Customizable sacred gift packs. Select quantities for each item (0-5):",
-    "dryFruitPutharekulu": "Daily Puja Kit",
-    "kova": "Brass Kalash",
-    "chocolate": "Lakshmi Puja Kit",
-    "boost": "Sandal Agarbatti",
-    "samosa": "Puja Thali Set",
-    "featurePackaging": "Respectful packaging",
-    "featureGreeting": "Blessing note included",
-    "featureCustom": "Customizable selection",
-    "orderHamper": "Order Custom Set on WhatsApp",
-    "corporateTitle": "Temple & Corporate Orders",
-    "corporateDesc": "Bulk supply for temples, offices, and festive gifting",
-    "corpFeature1": "Minimum flexible quantities",
-    "corpFeature2": "Branded packing option",
-    "corpFeature3": "Timely delivery",
-    "startingFrom": "Starting from",
-    "inquire": "Inquire on WhatsApp",
-    "packagingTitle": "Careful Packaging",
-    "packagingDesc": "Secure packing for oils, brass & kits",
-    "panIndiaTitle": "AP & Telangana Delivery",
-    "panIndiaDesc": "Services across Andhra Pradesh & Telangana",
-    "supportTitle": "WhatsApp Support",
-    "supportDesc": "Quick help for product guidance",
-    "internationalOrders": "Orders Across AP & Telangana",
-    "worldwideDelivery": "Serving Andhra Pradesh & Telangana — Annapurna Pooja Products",
-    "whatsappHeader": "Hello! I'd like to order a custom Puja Gift Set from Annapurna Pooja Products:",
-    "whatsappSelection": "PUJA GIFT SET - CUSTOM SELECTION:",
-    "whatsappEmpty": "No items selected yet",
-    "whatsappFooter": "Please share pricing and delivery details. Thank you!"
+    "tag": "ప్రత్యేక ఆఫర్లు",
+    "title": "బహుమతి & పండుగ సెట్లు",
+    "description": "గృహప్రవేశం, పెళ్లిళ్లు మరియు కార్పొరేట్ వేడుకలకు శుభకరమైన బహుమతి సెట్లను రూపొందించండి.",
+    "giftHampers": "పూజా బహుమతి సెట్లు",
+    "giftHampersDesc": "మీ స్వంత సెట్ తయారు చేసుకోండి — ప్రతి వస్తువుకు 5 వరకు ఎంచుకోండి",
+    "giftHampersHint": "అనుకూలీకరించదగిన పవిత్ర బహుమతి ప్యాక్లు. ప్రతి వస్తువుకు పరిమాణాలు ఎంచుకోండి (0-5):",
+    "dryFruitPutharekulu": "రోజువారీ పూజా కిట్",
+    "kova": "ఇత్తడి కలశం",
+    "chocolate": "లక్ష్మీ పూజా కిట్",
+    "boost": "చందన అగరబత్తి",
+    "samosa": "పూజా థాలీ సెట్",
+    "featurePackaging": "గౌరవపూర్వక ప్యాకింగ్",
+    "featureGreeting": "ఆశీర్వాద నోట్ చేర్చబడింది",
+    "featureCustom": "అనుకూలీకరించదగిన ఎంపిక",
+    "orderHamper": "వాట్సాప్‌లోలో కస్టమ్ సెట్ ఆర్డర్ చేయండి",
+    "corporateTitle": "దేవాలయం & కార్పొరేట్ ఆర్డర్లు",
+    "corporateDesc": "దేవాలయాలు, కార్యాలయాలు మరియు పండుగ బహుమతులకు బల్క్ సరఫరా",
+    "corpFeature1": "కనీసం సౌకర్యవంతమైన పరిమాణాలు",
+    "corpFeature2": "బ్రాండెడ్ ప్యాకింగ్ ఎంపిక",
+    "corpFeature3": "సమయానుకూల డెలివరీ",
+    "startingFrom": "నుండి ప్రారంభం",
+    "inquire": "వాట్సాప్‌లోలో విచారించండి",
+    "packagingTitle": "జాగ్రత్తైన ప్యాకింగ్",
+    "packagingDesc": "నూనెలు, ఇత్తడి & కిట్లకు సురక్షిత ప్యాకింగ్",
+    "panIndiaTitle": "ఆంధ్రప్రదేశ్ & తెలంగాణ డెలివరీ",
+    "panIndiaDesc": "ఆంధ్రప్రదేశ్ & తెలంగాణ అంతటా సేవలు",
+    "supportTitle": "వాట్సాప్‌లో సపోర్ట్",
+    "supportDesc": "ఉత్పత్తి మార్గదర్శకత్వానికి త్వరిత సహాయం",
+    "internationalOrders": "ఆంధ్రప్రదేశ్ & తెలంగాణ అంతటా ఆర్డర్లు",
+    "worldwideDelivery": "ఆంధ్రప్రదేశ్ & తెలంగాణకు సేవ — అన్నపూర్ణ పూజా ప్రొడక్ట్స్",
+    "whatsappHeader": "నమస్కారం! నేను అన్నపూర్ణ పూజా ప్రొడక్ట్స్ నుండి కస్టమ్ పూజా బహుమతి సెట్ ఆర్డర్ చేయాలనుకుంటున్నాను:",
+    "whatsappSelection": "పూజా బహుమతి సెట్ - కస్టమ్ ఎంపిక:",
+    "whatsappEmpty": "ఇంకా వస్తువులు ఎంచుకోలేదు",
+    "whatsappFooter": "దయచేసి ధర మరియు డెలివరీ వివరాలు పంపండి. ధన్యవాదాలు!"
   },
   "founders": {
-    "tag": "OUR PROMISE",
-    "title": "Devotion in Every Detail",
-    "description": "Annapurna Pooja Products is built to make ritual shopping simple — pure items, clear kits, and warm service for every family puja.",
-    "founder1Name": "Annapurna",
-    "founder1Role": "Brand",
-    "founder1Bio": "Named for abundance and nourishment — we bring complete pooja essentials so homes and temples never lack for a sacred offering.",
-    "founder2Name": "Our Team",
-    "founder2Role": "Curators & Service",
-    "founder2Bio": "A small team dedicated to sourcing brassware, incense, oils, and festival kits with care and traditional respect.",
-    "highlight": "Temple orders, wedding kits & custom bundles welcome"
+    "tag": "మా వాగ్దానం",
+    "title": "ప్రతి వివరంలో భక్తి",
+    "description": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్ పూజా షాపింగ్‌ను సులభం చేయడానికి నిర్మించబడింది — శుద్ధ వస్తువులు, స్పష్టమైన కిట్లు మరియు ప్రతి కుటుంబ పూజకు వెచ్చని సేవ.",
+    "founder1Name": "అన్నపూర్ణ",
+    "founder1Role": "బ్రాండ్",
+    "founder1Bio": "సమృద్ధి మరియు పోషణ పేరుతో — ఇళ్ళు మరియు దేవాలయాలు పవిత్ర నైవేద్యానికి ఎప్పుడూ లోటు పడకుండా పూర్తి పూజా సామగ్రిని అందిస్తాము.",
+    "founder2Name": "మా బృందం",
+    "founder2Role": "క్యూరేటర్లు & సేవ",
+    "founder2Bio": "ఇత్తడి వస్తువులు, అగరబత్తులు, నూనెలు మరియు పండుగ కిట్లను జాగ్రత్తగా మరియు సాంప్రదాయ గౌరవంతో సేకరించే చిన్న బృందం.",
+    "highlight": "దేవాలయ ఆర్డర్లు, పెళ్లి కిట్లు & కస్టమ్ బండిల్స్ స్వాగతం"
   },
   "location": {
-    "tag": "FIND US",
-    "title": "Visit Us on Google Maps",
-    "description": "Find Annapurna Pooja Products on Google Maps — get directions and plan your visit.",
-    "openMaps": "Open Google Maps",
-    "callUs": "Call Now",
-    "addressLabel": "Andhra Pradesh & Telangana"
+    "tag": "మమ్మల్ని కనుగొనండి",
+    "title": "గూగుల్ మ్యాప్స్‌లో మమ్మల్ని సందర్శించండి",
+    "description": "గూగుల్ మ్యాప్స్‌లో అన్నపూర్ణ పూజా ప్రొడక్ట్స్‌ను కనుగొనండి — దిశలు పొంది మీ సందర్శనను ప్రణాళిక చేయండి.",
+    "openMaps": "గూగుల్ మ్యాప్స్ తెరవండి",
+    "callUs": "ఇప్పుడే కాల్ చేయండి",
+    "addressLabel": "ఆంధ్రప్రదేశ్ & తెలంగాణ"
   },
   "seo": {
-    "title": "Annapurna Pooja Products | Pooja Vastuvulu & Kits",
-    "description": "Annapurna nundi 60+ pooja products — agarbatti, deepalu, brass, kumkum, oils & puja kits. WhatsApp lo order cheyandi.",
-    "keywords": "Annapurna Pooja Products, puja kit, agarbatti, brass kalash, diya, camphor, havan samagri, Lakshmi puja kit, temple essentials, Andhra pooja store",
-    "ogTitle": "Annapurna Pooja Products — Sacred Essentials for Every Ritual",
-    "ogDescription": "60+ pooja products · Complete kits · Brass & incense. Order on WhatsApp.",
-    "twitterTitle": "Annapurna Pooja Products",
-    "twitterDescription": "Temple-quality pooja essentials and kits for daily worship & festivals.",
-    "ogImageAlt": "Annapurna Pooja Products — sacred essentials",
-    "siteName": "Annapurna Pooja Products"
+    "title": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్ | పవిత్ర సామగ్రి & పూజా కిట్లు",
+    "description": "అన్నపూర్ణ నుండి 60+ పూజా ఉత్పత్తులు — అగరబత్తులు, దీపాలు, ఇత్తడి, కుంకుమ, నూనెలు మరియు పూర్తి పూజా కిట్లు. ఆంధ్రప్రదేశ్ & తెలంగాణలో వాట్సాప్‌లోలో ఆర్డర్ చేయండి.",
+    "keywords": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్, పూజా కిట్, అగరబత్తి, ఇత్తడి కలశం, దీపం, కర్పూరం, హవన సామగ్రి, లక్ష్మీ పూజా కిట్, దేవాలయ అవసరాలు, ఆంధ్ర పూజా స్టోర్",
+    "ogTitle": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్ — ప్రతి పూజకు పవిత్ర సామగ్రి",
+    "ogDescription": "60+ పూజా ఉత్పత్తులు · పూర్తి కిట్లు · ఇత్తడి & అగరబత్తి. వాట్సాప్‌లోలో ఆర్డర్ చేయండి.",
+    "twitterTitle": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్",
+    "twitterDescription": "రోజువారీ పూజ & పండుగలకు దేవాలయ నాణ్యత పూజా సామగ్రి మరియు కిట్లు.",
+    "ogImageAlt": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్ — పవిత్ర సామగ్రి",
+    "siteName": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్"
   },
   "invoice": {
-    "tag": "BILLING",
-    "title": "Create Invoice",
-    "description": "Fill customer and product details on the left. The tax invoice updates live on the right — print or save as PDF from your browser.",
-    "backHome": "Back to site",
-    "reset": "Reset",
-    "print": "Print / Save PDF",
-    "printHint": "Print or Save as PDF",
-    "preview": "Live preview",
-    "taxInvoice": "Tax Invoice",
-    "date": "Date",
-    "billTo": "Bill to",
-    "customerPlaceholder": "Customer name",
-    "orderDetails": "Order details",
-    "orderType": "Order type",
-    "payment": "Payment",
-    "item": "Item",
-    "unit": "Unit",
-    "qty": "Qty",
-    "rate": "Rate",
-    "amount": "Amount",
-    "noItems": "Add pooja products to begin this invoice.",
-    "unnamedItem": "Untitled item",
-    "subtotal": "Subtotal",
-    "packaging": "Packaging",
-    "delivery": "Delivery",
-    "discount": "Discount",
-    "grandTotal": "Grand total",
-    "notes": "Notes",
-    "thankYou": "Thank you for choosing Annapurna Pooja Products.",
-    "authorisedSignatory": "Authorised Signatory",
-    "addItem": "Add item",
-    "removeItem": "Remove item",
-    "liveTotal": "Invoice total",
+    "tag": "బిల్లింగ్",
+    "title": "ఇన్‌వాయిస్ సృష్టించండి",
+    "description": "ఎడమవైపు కస్టమర్ మరియు ఉత్పత్తి వివరాలు నింపండి. కుడివైపు టాక్స్ ఇన్‌వాయిస్ లైవ్‌గా అప్‌డేట్ అవుతుంది — మీ బ్రౌజర్ నుండి ప్రింట్ లేదా PDFగా సేవ్ చేయండి.",
+    "backHome": "సైట్‌కు తిరిగి వెళ్ళండి",
+    "reset": "రీసెట్",
+    "print": "ప్రింట్ / PDF సేవ్",
+    "printHint": "ప్రింట్ లేదా PDFగా సేవ్ చేయండి",
+    "preview": "లైవ్ ప్రివ్యూ",
+    "taxInvoice": "టాక్స్ ఇన్‌వాయిస్",
+    "date": "తేదీ",
+    "billTo": "బిల్ టు",
+    "customerPlaceholder": "కస్టమర్ పేరు",
+    "orderDetails": "ఆర్డర్ వివరాలు",
+    "orderType": "ఆర్డర్ రకం",
+    "payment": "చెల్లింపు",
+    "item": "వస్తువు",
+    "unit": "యూనిట్",
+    "qty": "పరిమాణం",
+    "rate": "రేటు",
+    "amount": "మొత్తం",
+    "noItems": "ఈ ఇన్‌వాయిస్ ప్రారంభించడానికి పూజా ఉత్పత్తులను జోడించండి.",
+    "unnamedItem": "పేరులేని వస్తువు",
+    "subtotal": "ఉపమొత్తం",
+    "packaging": "ప్యాకింగ్",
+    "delivery": "డెలివరీ",
+    "discount": "డిస్కౌంట్",
+    "grandTotal": "మొత్తం మొత్తం",
+    "notes": "గమనికలు",
+    "thankYou": "అన్నపూర్ణ పూజా ప్రొడక్ట్స్‌ను ఎంచుకున్నందుకు ధన్యవాదాలు.",
+    "authorisedSignatory": "అధీకృత సంతకం",
+    "addItem": "వస్తువు జోడించండి",
+    "removeItem": "వస్తువు తొలగించండి",
+    "liveTotal": "ఇన్‌వాయిస్ మొత్తం",
     "sections": {
-      "invoice": "Invoice details",
-      "customer": "Customer",
-      "items": "Pooja products",
-      "charges": "Charges & notes"
+      "invoice": "ఇన్‌వాయిస్ వివరాలు",
+      "customer": "కస్టమర్",
+      "items": "పూజా ఉత్పత్తులు",
+      "charges": "ఛార్జీలు & గమనికలు"
     },
     "fields": {
-      "invoiceNumber": "Invoice number",
-      "invoiceDate": "Invoice date",
-      "orderType": "Order type",
-      "payment": "Payment method",
-      "customerName": "Customer name",
-      "customerPhone": "Phone",
-      "customerAddress": "Address",
-      "customerCity": "City / town",
-      "customerPincode": "Pincode",
-      "itemName": "Product name",
-      "unit": "Unit",
-      "qty": "Quantity",
-      "rate": "Rate (INR)",
-      "packaging": "Packaging (INR)",
-      "delivery": "Delivery (INR)",
-      "discount": "Discount (INR)",
-      "notes": "Notes for customer"
+      "invoiceNumber": "ఇన్‌వాయిస్ నంబర్",
+      "invoiceDate": "ఇన్‌వాయిస్ తేదీ",
+      "orderType": "ఆర్డర్ రకం",
+      "payment": "చెల్లింపు పద్ధతి",
+      "customerName": "కస్టమర్ పేరు",
+      "customerPhone": "ఫోన్",
+      "customerAddress": "చిరునామా",
+      "customerCity": "నగరం / పట్టణం",
+      "customerPincode": "పిన్‌కోడ్",
+      "itemName": "ఉత్పత్తి పేరు",
+      "unit": "యూనిట్",
+      "qty": "పరిమాణం",
+      "rate": "రేటు (INR)",
+      "packaging": "ప్యాకింగ్ (INR)",
+      "delivery": "డెలివరీ (INR)",
+      "discount": "డిస్కౌంట్ (INR)",
+      "notes": "కస్టమర్ కోసం గమనికలు"
     },
     "placeholders": {
-      "customerName": "e.g. Sita Devi / Sri Temple Committee",
-      "customerAddress": "House / street / landmark",
-      "notes": "e.g. Deliver before festival · Gift wrap requested"
+      "customerName": "ఉదా. సీతా దేవి / శ్రీ టెంపుల్ కమిటీ",
+      "customerAddress": "ఇల్లు / వీధి / ల్యాండ్‌మార్క్",
+      "notes": "ఉదా. పండుగకు ముందు డెలివరీ · గిఫ్ట్ ర్యాప్ అభ్యర్థన"
     },
     "orderTypes": {
-      "counter": "Counter sale",
-      "whatsapp": "WhatsApp order",
-      "stall": "Event stall",
-      "bulk": "Bulk / wholesale",
-      "gift": "Gift set"
+      "counter": "కౌంటర్ సేల్",
+      "whatsapp": "వాట్సాప్‌లో ఆర్డర్",
+      "stall": "ఈవెంట్ స్టాల్",
+      "bulk": "బల్క్ / హోల్‌సేల్",
+      "gift": "బహుమతి సెట్"
     },
     "paymentMethods": {
-      "cash": "Cash",
+      "cash": "నగదు",
       "upi": "UPI",
-      "bank": "Bank transfer",
-      "pending": "Pending"
+      "bank": "బ్యాంక్ ట్రాన్స్‌ఫర్",
+      "pending": "పెండింగ్"
     },
     "units": {
-      "pack": "Pack",
-      "kg": "Set",
-      "piece": "Piece"
+      "pack": "ప్యాక్",
+      "kg": "సెట్",
+      "piece": "పీస్"
     },
     "seo": {
-      "title": "Create Invoice",
-      "description": "Generate an Annapurna Pooja Products tax invoice for counter, WhatsApp, or bulk orders."
+      "title": "ఇన్‌వాయిస్ సృష్టించండి",
+      "description": "కౌంటర్, వాట్సాప్‌లో లేదా బల్క్ ఆర్డర్లకు అన్నపూర్ణ పూజా ప్రొడక్ట్స్ టాక్స్ ఇన్‌వాయిస్ రూపొందించండి."
     }
   }
 }

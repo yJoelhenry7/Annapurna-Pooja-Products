@@ -2,24 +2,27 @@ import { useId } from "react";
 
 type FolkSectionBackgroundProps = {
   variant?: "warm" | "cream" | "gold";
+  /** Hide corner / side decorations (e.g. when hero draws its own diyas) */
+  hideCorners?: boolean;
 };
 
 /**
  * Soft pooja atmosphere for section backs:
- * rangoli lattice, lotus corners, hanging diya garlands, and a diya/kalash band.
+ * Om (ॐ) pattern, lotus corners, hanging diya garlands, and a diya/kalash band.
  */
 export default function FolkSectionBackground({
   variant = "warm",
+  hideCorners = false,
 }: FolkSectionBackgroundProps) {
   const uid = useId().replace(/:/g, "");
-  const patternId = `pooja-lattice-${uid}`;
+  const patternId = `om-pattern-${uid}`;
 
   const wash =
     variant === "gold"
-      ? "from-[#d4b896] via-[#c4a574] to-[#b8956a]"
+      ? "from-[#fff8e8] via-[#faf0d8] to-[#f5e6c4]"
       : variant === "cream"
-        ? "from-[#e8d5bc] via-[#dcc4a4] to-[#d0b48e]"
-        : "from-[#ead9c0] via-[#d9c0a0] to-[#c9a97e]";
+        ? "from-[#fffaf0] via-[#fff6e4] to-[#f8edd4]"
+        : "from-[#fffdf7] via-[#faf3e0] to-[#f3e7c9]";
 
   return (
     <div
@@ -28,9 +31,9 @@ export default function FolkSectionBackground({
     >
       <div className={`absolute inset-0 bg-gradient-to-b ${wash}`} />
 
-      {/* Soft rangoli / petal lattice */}
+      {/* Soft repeating Om (ॐ) pattern */}
       <svg
-        className="absolute inset-0 h-full w-full opacity-[0.08]"
+        className="absolute inset-0 h-full w-full opacity-[0.1]"
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
@@ -38,112 +41,105 @@ export default function FolkSectionBackground({
             id={patternId}
             x="0"
             y="0"
-            width="56"
-            height="56"
+            width="64"
+            height="64"
             patternUnits="userSpaceOnUse"
           >
-            <circle cx="28" cy="28" r="10" fill="none" stroke="#5c3a22" strokeWidth="0.9" />
-            <circle cx="28" cy="28" r="3" fill="#8b5e34" />
-            <path
-              d="M28 14 C32 20 34 24 28 28 C22 24 24 20 28 14 Z"
-              fill="#6b4423"
-              opacity="0.35"
-            />
-            <path
-              d="M28 42 C24 36 22 32 28 28 C34 32 32 36 28 42 Z"
-              fill="#6b4423"
-              opacity="0.35"
-            />
-            <path
-              d="M14 28 C20 24 24 22 28 28 C24 34 20 32 14 28 Z"
-              fill="#6b4423"
-              opacity="0.35"
-            />
-            <path
-              d="M42 28 C36 32 32 34 28 28 C32 22 36 24 42 28 Z"
-              fill="#6b4423"
-              opacity="0.35"
-            />
+            <text
+              x="32"
+              y="40"
+              textAnchor="middle"
+              fill="#5c4528"
+              style={{ fontFamily: "var(--font-devanagari), serif" }}
+              fontSize="26"
+              fontWeight="600"
+            >
+              ॐ
+            </text>
           </pattern>
         </defs>
         <rect width="100%" height="100%" fill={`url(#${patternId})`} />
       </svg>
 
-      {/* Lotus corner — top left */}
-      <svg
-        className="absolute -left-4 -top-4 h-40 w-40 text-[var(--bronze)] opacity-[0.16] md:h-52 md:w-52"
-        viewBox="0 0 200 200"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M100 160 C70 130 55 100 55 75 C55 50 75 40 100 55 C125 40 145 50 145 75 C145 100 130 130 100 160 Z"
-          stroke="currentColor"
-          strokeWidth="1.5"
-        />
-        <path
-          d="M100 150 C80 125 70 100 70 80 C70 62 85 55 100 68 C115 55 130 62 130 80 C130 100 120 125 100 150 Z"
-          stroke="currentColor"
-          strokeWidth="1.1"
-        />
-        <circle cx="100" cy="95" r="8" fill="currentColor" opacity="0.5" />
-        <path
-          d="M100 55 L100 30 M78 62 L62 42 M122 62 L138 42"
-          stroke="currentColor"
-          strokeWidth="1.2"
-        />
-      </svg>
+      {!hideCorners && (
+        <>
+          {/* Lotus corner — top left */}
+          <svg
+            className="absolute -left-4 -top-4 h-40 w-40 text-[var(--bronze)] opacity-[0.16] md:h-52 md:w-52"
+            viewBox="0 0 200 200"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M100 160 C70 130 55 100 55 75 C55 50 75 40 100 55 C125 40 145 50 145 75 C145 100 130 130 100 160 Z"
+              stroke="currentColor"
+              strokeWidth="1.5"
+            />
+            <path
+              d="M100 150 C80 125 70 100 70 80 C70 62 85 55 100 68 C115 55 130 62 130 80 C130 100 120 125 100 150 Z"
+              stroke="currentColor"
+              strokeWidth="1.1"
+            />
+            <circle cx="100" cy="95" r="8" fill="currentColor" opacity="0.5" />
+            <path
+              d="M100 55 L100 30 M78 62 L62 42 M122 62 L138 42"
+              stroke="currentColor"
+              strokeWidth="1.2"
+            />
+          </svg>
 
-      {/* Lotus corner — bottom right */}
-      <svg
-        className="absolute -bottom-6 -right-6 h-44 w-44 rotate-180 text-[var(--deep)] opacity-[0.12] md:h-56 md:w-56"
-        viewBox="0 0 200 200"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M100 160 C70 130 55 100 55 75 C55 50 75 40 100 55 C125 40 145 50 145 75 C145 100 130 130 100 160 Z"
-          stroke="currentColor"
-          strokeWidth="1.5"
-        />
-        <circle cx="100" cy="95" r="7" fill="currentColor" opacity="0.45" />
-      </svg>
+          {/* Lotus corner — bottom right */}
+          <svg
+            className="absolute -bottom-6 -right-6 h-44 w-44 rotate-180 text-[var(--deep)] opacity-[0.12] md:h-56 md:w-56"
+            viewBox="0 0 200 200"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M100 160 C70 130 55 100 55 75 C55 50 75 40 100 55 C125 40 145 50 145 75 C145 100 130 130 100 160 Z"
+              stroke="currentColor"
+              strokeWidth="1.5"
+            />
+            <circle cx="100" cy="95" r="7" fill="currentColor" opacity="0.45" />
+          </svg>
 
-      {/* Hanging diya garland — left */}
-      <svg
-        className="absolute left-2 top-0 hidden h-64 w-20 text-[var(--bronze)] opacity-[0.14] md:block lg:w-24"
-        viewBox="0 0 80 260"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M40 0 L40 40" stroke="currentColor" strokeWidth="1.4" />
-        <path d="M28 48 Q40 36 52 48 L48 58 Q40 66 32 58 Z" fill="currentColor" opacity="0.55" />
-        <ellipse cx="40" cy="48" rx="14" ry="5" stroke="currentColor" strokeWidth="1.2" />
-        <path d="M40 58 L40 110" stroke="currentColor" strokeWidth="1.2" />
-        <path d="M26 118 Q40 104 54 118 L50 130 Q40 140 30 130 Z" fill="currentColor" opacity="0.5" />
-        <ellipse cx="40" cy="118" rx="16" ry="5" stroke="currentColor" strokeWidth="1.2" />
-        <path d="M40 130 L40 180" stroke="currentColor" strokeWidth="1.2" />
-        <path d="M28 188 Q40 176 52 188 L48 198 Q40 206 32 198 Z" fill="currentColor" opacity="0.45" />
-        <ellipse cx="40" cy="188" rx="14" ry="5" stroke="currentColor" strokeWidth="1.2" />
-      </svg>
+          {/* Hanging diya garland — left */}
+          <svg
+            className="absolute left-2 top-0 hidden h-64 w-20 text-[var(--bronze)] opacity-[0.14] md:block lg:w-24"
+            viewBox="0 0 80 260"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M40 0 L40 40" stroke="currentColor" strokeWidth="1.4" />
+            <path d="M28 48 Q40 36 52 48 L48 58 Q40 66 32 58 Z" fill="currentColor" opacity="0.55" />
+            <ellipse cx="40" cy="48" rx="14" ry="5" stroke="currentColor" strokeWidth="1.2" />
+            <path d="M40 58 L40 110" stroke="currentColor" strokeWidth="1.2" />
+            <path d="M26 118 Q40 104 54 118 L50 130 Q40 140 30 130 Z" fill="currentColor" opacity="0.5" />
+            <ellipse cx="40" cy="118" rx="16" ry="5" stroke="currentColor" strokeWidth="1.2" />
+            <path d="M40 130 L40 180" stroke="currentColor" strokeWidth="1.2" />
+            <path d="M28 188 Q40 176 52 188 L48 198 Q40 206 32 198 Z" fill="currentColor" opacity="0.45" />
+            <ellipse cx="40" cy="188" rx="14" ry="5" stroke="currentColor" strokeWidth="1.2" />
+          </svg>
 
-      {/* Hanging diya garland — right */}
-      <svg
-        className="absolute right-2 top-0 hidden h-64 w-20 scale-x-[-1] text-[var(--deep)] opacity-[0.12] md:block lg:w-24"
-        viewBox="0 0 80 260"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M40 0 L40 40" stroke="currentColor" strokeWidth="1.4" />
-        <path d="M28 48 Q40 36 52 48 L48 58 Q40 66 32 58 Z" fill="currentColor" opacity="0.55" />
-        <ellipse cx="40" cy="48" rx="14" ry="5" stroke="currentColor" strokeWidth="1.2" />
-        <path d="M40 58 L40 110" stroke="currentColor" strokeWidth="1.2" />
-        <path d="M26 118 Q40 104 54 118 L50 130 Q40 140 30 130 Z" fill="currentColor" opacity="0.5" />
-        <ellipse cx="40" cy="118" rx="16" ry="5" stroke="currentColor" strokeWidth="1.2" />
-        <path d="M40 130 L40 180" stroke="currentColor" strokeWidth="1.2" />
-        <path d="M28 188 Q40 176 52 188 L48 198 Q40 206 32 198 Z" fill="currentColor" opacity="0.45" />
-        <ellipse cx="40" cy="188" rx="14" ry="5" stroke="currentColor" strokeWidth="1.2" />
-      </svg>
+          {/* Hanging diya garland — right */}
+          <svg
+            className="absolute right-2 top-0 hidden h-64 w-20 scale-x-[-1] text-[var(--deep)] opacity-[0.12] md:block lg:w-24"
+            viewBox="0 0 80 260"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M40 0 L40 40" stroke="currentColor" strokeWidth="1.4" />
+            <path d="M28 48 Q40 36 52 48 L48 58 Q40 66 32 58 Z" fill="currentColor" opacity="0.55" />
+            <ellipse cx="40" cy="48" rx="14" ry="5" stroke="currentColor" strokeWidth="1.2" />
+            <path d="M40 58 L40 110" stroke="currentColor" strokeWidth="1.2" />
+            <path d="M26 118 Q40 104 54 118 L50 130 Q40 140 30 130 Z" fill="currentColor" opacity="0.5" />
+            <ellipse cx="40" cy="118" rx="16" ry="5" stroke="currentColor" strokeWidth="1.2" />
+            <path d="M40 130 L40 180" stroke="currentColor" strokeWidth="1.2" />
+            <path d="M28 188 Q40 176 52 188 L48 198 Q40 206 32 198 Z" fill="currentColor" opacity="0.45" />
+            <ellipse cx="40" cy="188" rx="14" ry="5" stroke="currentColor" strokeWidth="1.2" />
+          </svg>
+        </>
+      )}
 
       {/* Bottom band: row of diyas + kalash silhouettes (replaces hill/gopuram) */}
       <svg
@@ -204,7 +200,7 @@ export default function FolkSectionBackground({
         </g>
       </svg>
 
-      <div className="absolute inset-0 bg-gradient-to-b from-[var(--deep)]/10 via-transparent to-[var(--deep)]/18" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-white/50" />
     </div>
   );
 }

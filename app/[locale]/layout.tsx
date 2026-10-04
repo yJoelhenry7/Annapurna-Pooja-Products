@@ -1,4 +1,9 @@
-﻿import { Cormorant_Garamond, Source_Sans_3, Noto_Sans_Telugu } from "next/font/google";
+﻿import {
+  Cormorant_Garamond,
+  Source_Sans_3,
+  Noto_Sans_Telugu,
+  Noto_Sans_Devanagari,
+} from "next/font/google";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import JsonLd from "../components/JsonLd";
@@ -38,6 +43,12 @@ const telugu = Noto_Sans_Telugu({
   weight: ["400", "500", "600", "700"],
 });
 
+const devanagari = Noto_Sans_Devanagari({
+  variable: "--font-devanagari",
+  subsets: ["devanagari"],
+  weight: ["400", "500", "600", "700"],
+});
+
 const locales = ["en", "te"] as const;
 
 export function generateStaticParams() {
@@ -47,7 +58,7 @@ export function generateStaticParams() {
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#fffaf0" },
-    { media: "(prefers-color-scheme: dark)", color: "#4a3728" },
+    { media: "(prefers-color-scheme: dark)", color: "#3d2e1a" },
   ],
   width: "device-width",
   initialScale: 1,
@@ -176,7 +187,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${display.variable} ${sans.variable} ${telugu.variable} h-full antialiased`}
+      className={`${display.variable} ${sans.variable} ${telugu.variable} ${devanagari.variable} h-full antialiased`}
     >
       <head>
         <JsonLd />
