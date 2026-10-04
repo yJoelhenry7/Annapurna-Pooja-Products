@@ -50,8 +50,8 @@ function getOrbitPose(offset: number, compact: boolean) {
   };
 }
 
-/** Square product frame with circular border accents */
-function SquareRoundFrame({
+/** Lotus-petal mandala plate — sacred thali framing for products */
+function LotusThaliFrame({
   src,
   alt,
   isActive,
@@ -64,20 +64,28 @@ function SquareRoundFrame({
 }) {
   const uid = useId().replace(/:/g, "");
   const ringGrad = `ring-${uid}`;
-  const plateGrad = `plate-${uid}`;
+  const petalGrad = `petal-${uid}`;
+
+  const petals = Array.from({ length: 12 }, (_, i) => {
+    const angle = (i * 30 * Math.PI) / 180;
+    const cx = Math.round((100 + Math.cos(angle) * 78) * 100) / 100;
+    const cy = Math.round((100 + Math.sin(angle) * 78) * 100) / 100;
+    const rot = i * 30 + 90;
+    return { cx, cy, rot, i };
+  });
 
   return (
     <div className="relative h-full w-full">
       <div
-        className={`pointer-events-none absolute left-1/2 top-1/2 h-[88%] w-[88%] -translate-x-1/2 -translate-y-1/2 rounded-[28%] blur-xl transition-opacity ${
+        className={`pointer-events-none absolute left-1/2 top-1/2 h-[92%] w-[92%] -translate-x-1/2 -translate-y-1/2 rounded-full blur-xl transition-opacity ${
           isActive
-            ? "bg-[radial-gradient(circle,rgba(196,160,116,0.38)_0%,transparent_68%)] opacity-100"
-            : "bg-[radial-gradient(circle,rgba(92,58,34,0.16)_0%,transparent_70%)] opacity-80"
+            ? "bg-[radial-gradient(circle,rgba(196,160,116,0.4)_0%,transparent_68%)] opacity-100"
+            : "bg-[radial-gradient(circle,rgba(92,58,34,0.18)_0%,transparent_70%)] opacity-80"
         }`}
         aria-hidden
       />
 
-      {/* Soft circular orbit ring behind the square */}
+      {/* Petal ring spins slowly; product stays upright */}
       <motion.svg
         className="absolute inset-0 h-full w-full"
         viewBox="0 0 200 200"
@@ -86,111 +94,86 @@ function SquareRoundFrame({
         animate={isActive ? { rotate: 360 } : { rotate: 0 }}
         transition={
           isActive
-            ? { duration: 48, repeat: Infinity, ease: "linear" }
-            : { duration: 0.4 }
+            ? { duration: 56, repeat: Infinity, ease: "linear" }
+            : { duration: 0.45 }
         }
       >
         <defs>
-          <linearGradient id={ringGrad} x1="20" y1="20" x2="180" y2="180">
+          <linearGradient id={ringGrad} x1="30" y1="30" x2="170" y2="170">
             <stop offset="0%" stopColor={isActive ? "#fff8e8" : "#faf3e4"} />
-            <stop offset="45%" stopColor={isActive ? "#c9a84c" : "#b8956a"} />
+            <stop offset="50%" stopColor={isActive ? "#c9a84c" : "#b8956a"} />
             <stop offset="100%" stopColor={isActive ? "#5c4528" : "#3d2e1a"} />
           </linearGradient>
+          <radialGradient id={petalGrad} cx="50%" cy="40%" r="60%">
+            <stop offset="0%" stopColor={isActive ? "#fffdf7" : "#fffaf0"} />
+            <stop offset="100%" stopColor={isActive ? "#e0c98a" : "#f0e2c4"} />
+          </radialGradient>
         </defs>
+
+        {petals.map(({ cx, cy, rot, i }) => (
+          <ellipse
+            key={i}
+            cx={cx}
+            cy={cy}
+            rx="16"
+            ry="22"
+            fill={`url(#${petalGrad})`}
+            stroke={isActive ? "#6b4423" : "#5c3a22"}
+            strokeWidth="1.1"
+            opacity={isActive ? 0.95 : 0.75}
+            transform={`rotate(${rot} ${cx} ${cy})`}
+          />
+        ))}
+
         <circle
           cx="100"
           cy="100"
-          r="92"
-          fill="none"
-          stroke={`url(#${ringGrad})`}
-          strokeWidth={isActive ? 2.2 : 1.4}
-          strokeDasharray={isActive ? "6 10" : "3 12"}
-          opacity={isActive ? 0.85 : 0.45}
+          r="68"
+          fill={`url(#${ringGrad})`}
+          stroke={isActive ? "#8b5e34" : "#6b4423"}
+          strokeWidth={isActive ? 3.5 : 2.5}
         />
         <circle
           cx="100"
           cy="100"
-          r="84"
+          r="60"
+          fill={isActive ? "#fff8f0" : "#f5ebe0"}
+          opacity="0.92"
+        />
+        <circle
+          cx="100"
+          cy="100"
+          r="56"
           fill="none"
           stroke={isActive ? "#c4a074" : "#b8956a"}
-          strokeWidth="1"
-          opacity={isActive ? 0.35 : 0.2}
+          strokeWidth="1.2"
+          opacity="0.55"
+          strokeDasharray="2 6"
         />
       </motion.svg>
 
-      {/* Square plate with rounded (circular) corners */}
-      <div className="absolute inset-[10%] flex items-center justify-center">
-        <div
-          className={`relative h-full w-full overflow-hidden rounded-[22%] border transition-shadow duration-300 ${
-            isActive
-              ? "border-[var(--bronze)]/70 shadow-[0_14px_36px_rgba(61,46,26,0.22),inset_0_0_0_1px_rgba(201,168,76,0.35)]"
-              : "border-[var(--bronze)]/35 shadow-[0_8px_20px_rgba(61,46,26,0.12)]"
-          }`}
-        >
-          <svg
-            className="pointer-events-none absolute inset-0 h-full w-full"
-            viewBox="0 0 200 200"
-            preserveAspectRatio="none"
-            aria-hidden
-          >
-            <defs>
-              <linearGradient id={plateGrad} x1="0" y1="0" x2="200" y2="200">
-                <stop offset="0%" stopColor={isActive ? "#fffdf8" : "#faf6ee"} />
-                <stop offset="55%" stopColor={isActive ? "#f3e6d0" : "#f0e6d4"} />
-                <stop offset="100%" stopColor={isActive ? "#e8d4b0" : "#e5d5bc"} />
-              </linearGradient>
-            </defs>
-            <rect
-              x="0"
-              y="0"
-              width="200"
-              height="200"
-              rx="44"
-              ry="44"
-              fill={`url(#${plateGrad})`}
-            />
-            <rect
-              x="8"
-              y="8"
-              width="184"
-              height="184"
-              rx="38"
-              ry="38"
-              fill="none"
-              stroke={isActive ? "#8b5e34" : "#6b4423"}
-              strokeWidth={isActive ? 2.4 : 1.6}
-              opacity="0.55"
-            />
-            <rect
-              x="16"
-              y="16"
-              width="168"
-              height="168"
-              rx="32"
-              ry="32"
-              fill="none"
-              stroke={isActive ? "#c4a074" : "#b8956a"}
-              strokeWidth="1"
-              opacity="0.4"
-              strokeDasharray="3 7"
-            />
-          </svg>
-
-          <div className="absolute inset-[14%] overflow-hidden rounded-[18%] bg-gradient-to-b from-white to-[var(--ivory)]">
-            <div className="relative h-full w-full">
-              <Image
-                src={src}
-                alt={alt}
-                fill
-                className="object-contain object-center p-2"
-                sizes="(max-width: 768px) 140px, 180px"
-                priority={priority}
-                unoptimized
-              />
-            </div>
-          </div>
+      <div className="absolute left-1/2 top-1/2 h-[52%] w-[52%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full">
+        <div className="relative h-full w-full bg-gradient-to-b from-white to-[var(--ivory)]">
+          <Image
+            src={src}
+            alt={alt}
+            fill
+            className="object-contain object-center p-1.5"
+            sizes="(max-width: 768px) 120px, 160px"
+            priority={priority}
+            unoptimized
+          />
         </div>
       </div>
+
+      <div
+        className={`pointer-events-none absolute left-1/2 top-1/2 h-[56%] w-[56%] -translate-x-1/2 -translate-y-1/2 rounded-full border transition-colors ${
+          isActive
+            ? "border-[var(--bronze)]/50 shadow-[inset_0_0_20px_rgba(166,124,82,0.2)]"
+            : "border-[var(--bronze)]/25"
+        }`}
+        aria-hidden
+      />
     </div>
   );
 }
@@ -372,7 +355,7 @@ export default function Hero() {
                     aria-label={tProducts(product.nameKey)}
                     aria-current={isActive ? "true" : undefined}
                   >
-                    <SquareRoundFrame
+                    <LotusThaliFrame
                       src={product.src}
                       alt={tProducts(product.nameKey)}
                       isActive={isActive}
