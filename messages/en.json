@@ -53,45 +53,145 @@
     "unitBox": "per box",
     "pack": "per pack",
     "perKg": "per set",
-    "sandalAgarbatti": {
-      "name": "Sandal Agarbatti",
-      "description": "Temple-grade sandalwood incense sticks for daily puja"
+    "sambraniCup": {
+      "name": "Sambrani Cup",
+      "description": "Authentic Sambrani Cup for daily puja and home fragrance — Sambrani Cups"
     },
-    "roseAgarbatti": {
-      "name": "Rose Agarbatti",
-      "description": "Soft rose fragrance incense for home shrines"
+    "kewdaIncenseCones": {
+      "name": "Kewda Incense Cones",
+      "description": "Authentic Kewda Incense Cones for daily puja and home fragrance — Incense Cones, 80g jar"
     },
-    "jasmineAgarbatti": {
-      "name": "Jasmine Agarbatti",
-      "description": "Fresh jasmine aroma for evening aarti"
+    "sandalIncenseCones": {
+      "name": "Sandal Incense Cones",
+      "description": "Authentic Sandal Incense Cones for daily puja and home fragrance — Incense Cones, 80g jar"
     },
-    "lobanDhoop": {
-      "name": "Loban Dhoop",
-      "description": "Traditional loban resin dhoop for pure ritual smoke"
+    "muskIncenseCones": {
+      "name": "Musk Incense Cones",
+      "description": "Authentic Musk Incense Cones for daily puja and home fragrance — Incense Cones, 80g jar"
     },
-    "guggulDhoop": {
-      "name": "Guggul Dhoop",
-      "description": "Auspicious guggul dhoop used in havan and abhishekam"
+    "mograIncenseCones": {
+      "name": "Mogra Incense Cones",
+      "description": "Authentic Mogra Incense Cones for daily puja and home fragrance — Incense Cones, 80g jar"
     },
-    "sambraniCups": {
-      "name": "Sambrani Cups",
-      "description": "Ready-to-light sambrani cups for festive fragrance"
+    "firdousIncenseCones": {
+      "name": "Firdous Incense Cones",
+      "description": "Authentic Firdous Incense Cones for daily puja and home fragrance — Incense Cones, 80g jar"
     },
-    "dryDhoopSticks": {
-      "name": "Dry Dhoop Sticks",
-      "description": "Long-burning dry dhoop sticks for daily worship"
+    "sugandhIncenseCones": {
+      "name": "Sugandh Incense Cones",
+      "description": "Authentic Sugandh Incense Cones for daily puja and home fragrance — Incense Cones, 80g jar"
     },
-    "heenaAgarbatti": {
-      "name": "Heena Agarbatti",
-      "description": "Rich heena scent incense pack"
+    "gulabIncenseCones": {
+      "name": "Gulab Incense Cones",
+      "description": "Authentic Gulab Incense Cones for daily puja and home fragrance — Incense Cones, 80g jar"
     },
-    "premiumTempleIncense": {
-      "name": "Premium Temple Incense",
-      "description": "Thick, long-lasting incense preferred in temples"
+    "lavenderIncenseCones": {
+      "name": "Lavender Incense Cones",
+      "description": "Authentic Lavender Incense Cones for daily puja and home fragrance — Incense Cones, 80g"
     },
-    "nagChampa": {
-      "name": "Nag Champa",
-      "description": "Classic nag champa incense with warm floral notes"
+    "phalamruthaIncenseSticks": {
+      "name": "Phalamrutha Incense Sticks",
+      "description": "Authentic Phalamrutha Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 120g zipper pack"
+    },
+    "belaAndMimosaIncenseSticks": {
+      "name": "Bela and Mimosa Incense Sticks (Agarbatti)",
+      "description": "Authentic Bela and Mimosa Incense Sticks (Agarbatti) for daily puja and home fragrance — Agarbatti (Incense Sticks), 110g zipper pack"
+    },
+    "panchamruthaIncenseSticks": {
+      "name": "Panchamrutha Incense Sticks (Agarbatti)",
+      "description": "Authentic Panchamrutha Incense Sticks (Agarbatti) for daily puja and home fragrance — Agarbatti (Incense Sticks), 240g zipper pack"
+    },
+    "special4IncenseSticks": {
+      "name": "Special 4 Incense Sticks",
+      "description": "Authentic Special 4 Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 200g zipper pack"
+    },
+    "sugandhIncenseSticks": {
+      "name": "Sugandh Incense Sticks",
+      "description": "Authentic Sugandh Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "goldenFlowersIncenseSticks": {
+      "name": "Golden Flowers Incense Sticks (Agarbatti)",
+      "description": "Authentic Golden Flowers Incense Sticks (Agarbatti) for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "mograIncenseSticks": {
+      "name": "Mogra Incense Sticks",
+      "description": "Authentic Mogra Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "firdousIncenseSticks": {
+      "name": "Firdous Incense Sticks (Agarbatti)",
+      "description": "Authentic Firdous Incense Sticks (Agarbatti) for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "n3In1IncenseSticks": {
+      "name": "3 in 1 Incense Sticks",
+      "description": "Authentic 3 in 1 Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 114g zipper pack"
+    },
+    "lavenderIncenseSticks": {
+      "name": "Lavender Incense Sticks",
+      "description": "Authentic Lavender Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "shahiGulabDhoopSticks": {
+      "name": "Shahi Gulab Dhoop Sticks",
+      "description": "Authentic Shahi Gulab Dhoop Sticks for daily puja and home fragrance — Dhoop Sticks, 150g jar. Currently out of stock."
+    },
+    "sandalwoodDhoopSticks": {
+      "name": "Sandalwood Dhoop Sticks",
+      "description": "Authentic Sandalwood Dhoop Sticks for daily puja and home fragrance — Dhoop Sticks, 150g jar"
+    },
+    "champaIncenseSticks": {
+      "name": "Champa Incense Sticks",
+      "description": "Authentic Champa Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "lavenderDhoopSticks": {
+      "name": "Lavender Dhoop Sticks",
+      "description": "Authentic Lavender Dhoop Sticks for daily puja and home fragrance — Dhoop Sticks, 150g jar"
+    },
+    "sandalIncenseSticks": {
+      "name": "Sandal Incense Sticks",
+      "description": "Authentic Sandal Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "muskDhoopSticks": {
+      "name": "Musk Dhoop Sticks",
+      "description": "Authentic Musk Dhoop Sticks for daily puja and home fragrance — Dhoop Sticks, 150g jar"
+    },
+    "southernStarIncenseSticks": {
+      "name": "Southern Star Incense Sticks (Agarbatti)",
+      "description": "Authentic Southern Star Incense Sticks (Agarbatti) for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "jasmineDhoopSticks": {
+      "name": "Jasmine Dhoop Sticks",
+      "description": "Authentic Jasmine Dhoop Sticks for daily puja and home fragrance — Dhoop Sticks, 150g jar. Currently out of stock."
+    },
+    "kewdaIncenseSticks": {
+      "name": "Kewda Incense Sticks",
+      "description": "Authentic Kewda Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "firdousDhoopSticks": {
+      "name": "Firdous Dhoop Sticks",
+      "description": "Authentic Firdous Dhoop Sticks for daily puja and home fragrance — Dhoop Sticks, 150g jar. Currently out of stock."
+    },
+    "rajanigandhaIncenseSticks": {
+      "name": "Rajanigandha Incense Sticks",
+      "description": "Authentic Rajanigandha Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "herbalIncenseSticks": {
+      "name": "Herbal Incense Sticks",
+      "description": "Authentic Herbal Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "sugandhDhoopSticks": {
+      "name": "Sugandh Dhoop Sticks",
+      "description": "Authentic Sugandh Dhoop Sticks for daily puja and home fragrance — Dhoop Sticks, 150g jar. Currently out of stock."
+    },
+    "regaliaIncenseSticks": {
+      "name": "Regalia Incense Sticks",
+      "description": "Authentic Regalia Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "shahiKasturiIncenseSticks": {
+      "name": "Shahi Kasturi Incense Sticks",
+      "description": "Authentic Shahi Kasturi Incense Sticks for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
+    },
+    "shahiGulabIncenseSticks": {
+      "name": "Shahi Gulab Agarbatti (Incense Sticks)",
+      "description": "Authentic Shahi Gulab Agarbatti (Incense Sticks) for daily puja and home fragrance — Agarbatti (Incense Sticks), 115g zipper pack"
     },
     "clayDiyaSet": {
       "name": "Clay Diya Set",
@@ -105,22 +205,6 @@
       "name": "Five-Wick Diya",
       "description": "Pancha-mukha brass diya for special pujas"
     },
-    "hangingLamp": {
-      "name": "Hanging Lamp",
-      "description": "Traditional hanging oil lamp for home temples"
-    },
-    "deepamStand": {
-      "name": "Deepam Stand",
-      "description": "Stable brass stand for elevated deepam"
-    },
-    "akhandDiya": {
-      "name": "Akhand Diya",
-      "description": "Long-burn akhand deepam vessel with lid"
-    },
-    "decorativeDiyaBox": {
-      "name": "Decorative Diya Box",
-      "description": "Painted festive diyas ready for Diwali and Kartika"
-    },
     "cottonWicksPack": {
       "name": "Cotton Wicks Pack",
       "description": "Soft cotton wicks for oil and ghee lamps"
@@ -129,73 +213,33 @@
       "name": "Daily Puja Kit",
       "description": "Complete kit for morning and evening home puja"
     },
-    "satyanarayanaKit": {
-      "name": "Satyanarayana Vratam Kit",
-      "description": "All essentials for Satyanarayana puja at home"
-    },
-    "ganeshChaturthiKit": {
-      "name": "Ganesh Chaturthi Kit",
-      "description": "Ganapati installation and visarjan essentials"
-    },
     "lakshmiPujaKit": {
       "name": "Lakshmi Puja Kit",
       "description": "Varalakshmi and Friday Lakshmi worship pack"
     },
-    "navagrahaKit": {
-      "name": "Navagraha Kit",
-      "description": "Items for navagraha shanti and graha dosha puja"
+    "satyanarayanaKit": {
+      "name": "Satyanarayana Vratam Kit",
+      "description": "All essentials for Satyanarayana puja at home"
     },
     "grihaPraveshKit": {
       "name": "Griha Pravesh Kit",
       "description": "Housewarming puja samagri curated in one set"
     },
-    "weddingPujaKit": {
-      "name": "Wedding Puja Kit",
-      "description": "Muhurtham and wedding ritual essentials bundle"
-    },
-    "festivalEssentialsKit": {
-      "name": "Festival Essentials Kit",
-      "description": "Handy kit for Sankranti, Dasara and other festivals"
-    },
     "brassKalash": {
       "name": "Brass Kalash",
       "description": "Traditional brass kalash for kalasha sthapana"
-    },
-    "copperKalash": {
-      "name": "Copper Kalash",
-      "description": "Pure copper kalash preferred for abhishekam"
-    },
-    "brassBell": {
-      "name": "Brass Bell",
-      "description": "Clear-toned brass ghanta for aarti"
     },
     "pujaThaliSet": {
       "name": "Puja Thali Set",
       "description": "Complete brass thali with bowls and spoons"
     },
-    "copperLota": {
-      "name": "Copper Lota",
-      "description": "Handcrafted copper lota for holy water"
-    },
-    "brassAartiPlate": {
-      "name": "Brass Aarti Plate",
-      "description": "Wide aarti plate with diya hold"
+    "brassBell": {
+      "name": "Brass Bell",
+      "description": "Clear-toned brass ghanta for aarti"
     },
     "ganeshBrassIdol": {
       "name": "Ganesh Brass Idol",
       "description": "Blessed brass Ganesha murti for home temple"
-    },
-    "lakshmiBrassIdol": {
-      "name": "Lakshmi Brass Idol",
-      "description": "Goddess Lakshmi brass murti for prosperity puja"
-    },
-    "shivaLingamStand": {
-      "name": "Shiva Lingam Stand",
-      "description": "Lingam with jaladhara stand for abhishekam"
-    },
-    "copperPanchapatra": {
-      "name": "Copper Panchapatra",
-      "description": "Panchapatra and uddharani set in pure copper"
     },
     "pureKumkum": {
       "name": "Pure Kumkum",
@@ -205,94 +249,45 @@
       "name": "Haldi Powder",
       "description": "Bright turmeric powder for rituals and kalyanam"
     },
-    "vibhutiPack": {
-      "name": "Vibhuti Pack",
-      "description": "Sacred vibhuti ash for Shiva devotees"
-    },
     "chandanPowder": {
       "name": "Chandan Powder",
       "description": "Cooling sandalwood powder for tilak"
-    },
-    "gulalColors": {
-      "name": "Gulal Colors",
-      "description": "Herbal festival gulal in auspicious shades"
-    },
-    "riceAkshata": {
-      "name": "Rice Akshata",
-      "description": "Turmeric-tinged rice for blessings and ashirvadam"
-    },
-    "sindhoorBox": {
-      "name": "Sindhoor Box",
-      "description": "Traditional sindhoor for mangalya rituals"
-    },
-    "abhishekamPowderSet": {
-      "name": "Abhishekam Powder Set",
-      "description": "Assorted powders for deity abhishekam"
-    },
-    "sesameOil": {
-      "name": "Sesame Oil",
-      "description": "Cold-pressed sesame oil for deepam lighting"
-    },
-    "coconutOilPuja": {
-      "name": "Coconut Oil (Puja)",
-      "description": "Pure coconut oil for lamps and anointing"
-    },
-    "gheeDeepam": {
-      "name": "Deepam Ghee",
-      "description": "Pure cow ghee ideal for nanda deepam"
     },
     "camphorTablets": {
       "name": "Camphor Tablets",
       "description": "Quick-light camphor tablets for aarti"
     },
-    "camphorBlocks": {
-      "name": "Camphor Blocks",
-      "description": "Larger camphor blocks for temple-style aarti"
+    "sesameOil": {
+      "name": "Sesame Oil",
+      "description": "Cold-pressed sesame oil for deepam lighting"
     },
-    "roseWater": {
-      "name": "Rose Water",
-      "description": "Fragrant rose water for ashtothram and abhishekam"
-    },
-    "sandalOil": {
-      "name": "Sandal Oil",
-      "description": "Concentrated sandal oil for deity anointing"
-    },
-    "havanGhee": {
-      "name": "Havan Ghee",
-      "description": "Ritual ghee prepared for homa and havan"
-    },
-    "rudrakshaMala": {
-      "name": "Rudraksha Mala",
-      "description": "108-bead rudraksha mala for japa and meditation"
-    },
-    "sacredThread": {
-      "name": "Sacred Thread",
-      "description": "Cotton janeu / sacred thread pack"
-    },
-    "turmericCloth": {
-      "name": "Turmeric Cloth",
-      "description": "Yellow vastra for deity alankaram"
+    "gheeDeepam": {
+      "name": "Deepam Ghee",
+      "description": "Pure cow ghee ideal for nanda deepam"
     },
     "havanSamagri": {
       "name": "Havan Samagri",
       "description": "Blended herbs and woods for havan fire"
     },
+    "rudrakshaMala": {
+      "name": "Rudraksha Mala",
+      "description": "108-bead rudraksha mala for japa and meditation"
+    },
     "agarbattiStand": {
       "name": "Agarbatti Stand",
       "description": "Brass incense holder with ash catcher"
     },
-    "pujaBellSmall": {
-      "name": "Small Puja Bell",
-      "description": "Compact brass bell for travel and small shrines"
-    },
-    "coconutSet": {
-      "name": "Coconut Offering Set",
-      "description": "Coconut with mango leaves style offering pack"
-    },
-    "betelNutPack": {
-      "name": "Betel Nut Pack",
-      "description": "Supari pack for traditional offerings"
-    }
+    "homePreviewDesc": "A selection of incense, kits, and sacred essentials — explore the full catalog for more.",
+    "viewMore": "View more products",
+    "viewMoreHint": "Browse all products with filters and search",
+    "catalogTitle": "All Products",
+    "catalogDescription": "Search and filter our full pooja and aromatics collection.",
+    "searchPlaceholder": "Search products...",
+    "clearSearch": "Clear search",
+    "resultsCount": "{count, plural, =0 {No products} =1 {1 product} other {# products}}",
+    "noResultsTitle": "No products found",
+    "noResultsDesc": "Try another search term or reset the filters.",
+    "resetFilters": "Reset filters"
   },
   "about": {
     "tag": "OUR STORY",
@@ -576,5 +571,17 @@
       "title": "Create Invoice",
       "description": "Generate an Annapurna Pooja Products tax invoice for counter, WhatsApp, or bulk orders."
     }
+  },
+  "productDetail": {
+    "backToProducts": "Back to products",
+    "packSize": "Pack size",
+    "category": "Category",
+    "inStock": "In stock",
+    "outOfStock": "Out of stock",
+    "addToCart": "Add to Cart",
+    "viewCart": "View Cart",
+    "relatedTitle": "Related products",
+    "relatedSubtitle": "Pair these with your pick — build your pooja basket",
+    "quantity": "Quantity"
   }
 }

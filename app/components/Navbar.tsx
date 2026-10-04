@@ -19,11 +19,11 @@ export default function Navbar() {
   const cartItemCount = getTotalItems();
 
   const navItems = [
-    { name: t('home'), href: "#home" },
-    { name: t('products'), href: "#products" },
-    { name: t('about'), href: "#about" },
-    { name: t('occasions'), href: "#features" },
-    { name: t('contact'), href: "#contact" },
+    { name: t('home'), href: `/${locale}` },
+    { name: t('products'), href: `/${locale}/products` },
+    { name: t('about'), href: `/${locale}/#about` },
+    { name: t('occasions'), href: `/${locale}/#features` },
+    { name: t('contact'), href: `/${locale}/#contact` },
   ];
 
   const linkClass = "text-[var(--ink)] hover:text-[var(--bronze)]";
@@ -44,7 +44,7 @@ export default function Navbar() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="-ml-2 flex-shrink-0 sm:-ml-3 lg:-ml-4"
           >
-            <a href="#home" className="flex items-center">
+            <Link href={`/${locale}`} className="flex items-center">
               <div className="relative h-28 w-56 md:h-24 md:w-64">
                 <Image
                   src={LOGO_SRC}
@@ -56,7 +56,7 @@ export default function Navbar() {
                   sizes="(max-width: 768px) 224px, 256px"
                 />
               </div>
-            </a>
+            </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -90,23 +90,23 @@ export default function Navbar() {
                   </span>
                 )}
               </Link>
-              <a
-                href="#contact"
+              <Link
+                href={`/${locale}/#contact`}
                 className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-[var(--deep)] px-4 xl:px-5 py-2 font-sans text-sm font-semibold leading-none text-[var(--cream)] shadow-md transition-all duration-300 hover:bg-[var(--bronze)] hover:shadow-lg"
               >
                 {t('orderNow')}
-              </a>
+              </Link>
             </div>
           </div>
 
           {/* Mobile / tablet menu button */}
           <div className="lg:hidden flex items-center gap-2">
-            <a
-              href="#contact"
+            <Link
+              href={`/${locale}/#contact`}
               className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-[var(--deep)] px-4 py-2 font-sans text-sm font-semibold leading-none text-[var(--cream)] shadow-md transition-all duration-300 hover:bg-[var(--bronze)]"
             >
               {t('orderNow')}
-            </a>
+            </Link>
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}

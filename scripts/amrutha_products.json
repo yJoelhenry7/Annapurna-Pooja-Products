@@ -1,0 +1,382 @@
+[
+  [
+    "#",
+    "Product Name",
+    "Category",
+    "Pack Size",
+    "Price (₹)",
+    "Availability",
+    "Product Page URL",
+    "Image URL"
+  ],
+  [
+    1,
+    "Sambrani Cup",
+    "Sambrani Cups",
+    "-",
+    84,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/sambrani-cup",
+    "https://static.wixstatic.com/media/906937_c3d94d4e4e704fc798fe61881072161b~mv2.jpeg"
+  ],
+  [
+    2,
+    "Kewda Incense Cones",
+    "Incense Cones",
+    "80g jar",
+    75,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/kewda-incense-cones",
+    "https://static.wixstatic.com/media/906937_23c40a1cf98246e79d636a0074907463~mv2.jpeg"
+  ],
+  [
+    3,
+    "Sandal Incense Cones",
+    "Incense Cones",
+    "80g jar",
+    75,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/sandal-incense-cones",
+    "https://static.wixstatic.com/media/906937_c5f1c5cfa7e74e18b9819b992b41810b~mv2.jpeg"
+  ],
+  [
+    4,
+    "Musk Incense Cones",
+    "Incense Cones",
+    "80g jar",
+    75,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/musk-incense-cones",
+    "https://static.wixstatic.com/media/906937_21813ad450b8442bb291078acc84051c~mv2.jpeg"
+  ],
+  [
+    5,
+    "Mogra Incense Cones",
+    "Incense Cones",
+    "80g jar",
+    75,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/mogra-incense-cones",
+    "https://static.wixstatic.com/media/906937_63c55497ed5243feb9d0ce860ef6bccd~mv2.jpeg"
+  ],
+  [
+    6,
+    "Firdous Incense Cones",
+    "Incense Cones",
+    "80g jar",
+    75,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/firdous-incense-cones",
+    "https://static.wixstatic.com/media/906937_408b676802c44ddcb7c17fd320b4a0ce~mv2.jpeg"
+  ],
+  [
+    7,
+    "Sugandh Incense Cones",
+    "Incense Cones",
+    "80g jar",
+    75,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/sugandh-incense-cones",
+    "https://static.wixstatic.com/media/906937_ce4821ac90db4ccdad45cd0322330a12~mv2.jpeg"
+  ],
+  [
+    8,
+    "Gulab Incense Cones",
+    "Incense Cones",
+    "80g jar",
+    75,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/gulab-incense-cones",
+    "https://static.wixstatic.com/media/906937_049c20e5b41d41e69fd8d09e405755cc~mv2.jpeg"
+  ],
+  [
+    9,
+    "Lavender Incense Cones",
+    "Incense Cones",
+    "80g",
+    75,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/lavender-incense-cones",
+    "https://static.wixstatic.com/media/906937_0bd1d1fb6ca34cfbabdacc876af130d1~mv2.jpeg"
+  ],
+  [
+    10,
+    "Phalamrutha Incense Sticks",
+    "Agarbatti (Incense Sticks)",
+    "120g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/phalamrutha-incense-sticks",
+    "https://static.wixstatic.com/media/906937_0be48a71f84f4e68a7b8cca4b040d48a~mv2.jpeg"
+  ],
+  [
+    11,
+    "Bela and Mimosa Incense Sticks (Agarbatti)",
+    "Agarbatti (Incense Sticks)",
+    "110g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/bela-and-mimosa-incense-sticks",
+    "https://static.wixstatic.com/media/906937_31d6955d1afb4d18b2a87877e0afd02f~mv2.jpeg"
+  ],
+  [
+    12,
+    "Panchamrutha Incense Sticks (Agarbatti)",
+    "Agarbatti (Incense Sticks)",
+    "240g zipper pack",
+    135,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/panchamrutha-incense-sticks",
+    "https://static.wixstatic.com/media/906937_a32df61dac8b41e8b0cfd56d486b918a~mv2.jpeg"
+  ],
+  [
+    13,
+    "Special 4 Incense Sticks | Premium Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "200g zipper pack",
+    135,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/special-4-incense-sticks",
+    "https://static.wixstatic.com/media/906937_bb6e3e6d52b4467986888a0cf4ee9776~mv2.jpeg"
+  ],
+  [
+    14,
+    "Sugandh Incense Sticks | Sugandh Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/sugandh-incense-sticks",
+    "https://static.wixstatic.com/media/906937_c82bdb7b9c4d408c81c9f17a13f4c06e~mv2.jpeg"
+  ],
+  [
+    15,
+    "Golden Flowers Incense Sticks (Agarbatti)",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/golden-flowers-incense-sticks",
+    "https://static.wixstatic.com/media/906937_a7907a1123dc44888c66d4ba12ef1aa7~mv2.jpeg"
+  ],
+  [
+    16,
+    "Mogra Incense Sticks | Mogra Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/mogra-incense-sticks",
+    "https://static.wixstatic.com/media/906937_67e37fe44c7c4cbeb13acd4dcf322bc9~mv2.jpeg"
+  ],
+  [
+    17,
+    "Firdous Incense Sticks (Agarbatti)",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/firdous-incense-sticks",
+    "https://static.wixstatic.com/media/906937_bee7950fdc564f8b9fa646a7b31cb63a~mv2.jpeg"
+  ],
+  [
+    18,
+    "3 in 1 Incense Sticks",
+    "Agarbatti (Incense Sticks)",
+    "114g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/3-in-1-incense-sticks",
+    "https://static.wixstatic.com/media/906937_9a4475fdd73542ce8e3e5340de58c196~mv2.jpeg"
+  ],
+  [
+    19,
+    "Lavender Incense Sticks",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/lavender-incense-sticks",
+    "https://static.wixstatic.com/media/906937_091f7590d90a468585b60aa09636b1be~mv2.jpeg"
+  ],
+  [
+    20,
+    "Shahi Gulab Dhoop Sticks | Gulab Dhoopbatti",
+    "Dhoop Sticks",
+    "150g jar",
+    115,
+    "Out of Stock",
+    "https://www.amruthaaromatics.com/product-page/shahi-gulab-dhoop-sticks",
+    "https://static.wixstatic.com/media/906937_61b560c147e14cec98e94a305d6e8a16~mv2.jpeg"
+  ],
+  [
+    21,
+    "Sandalwood Dhoop Sticks | Sandalwood Dhoopbatti",
+    "Dhoop Sticks",
+    "150g jar",
+    115,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/sandalwood-dhoop-sticks",
+    "https://static.wixstatic.com/media/906937_4fb934de6210440198e685e8dd4a036b~mv2.jpeg"
+  ],
+  [
+    22,
+    "Champa Incense Sticks | Champa Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/champa-incense-sticks",
+    "https://static.wixstatic.com/media/906937_d9aa9b07b6e84d55a1b8384355e272b5~mv2.jpeg"
+  ],
+  [
+    23,
+    "Lavender Dhoop Sticks | Lavender Dhoopbatti",
+    "Dhoop Sticks",
+    "150g jar",
+    115,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/lavender-dhoop-sticks",
+    "https://static.wixstatic.com/media/906937_cc63b4beb54746eaa65e4892ca4b471a~mv2.jpeg"
+  ],
+  [
+    24,
+    "Sandal Incense Sticks | Sandal Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/sandal-incense-sticks",
+    "https://static.wixstatic.com/media/906937_c6947d0e89f149b681982654fb71aa22~mv2.jpeg"
+  ],
+  [
+    25,
+    "Musk Dhoop Sticks | Musk Dhoopbatti",
+    "Dhoop Sticks",
+    "150g jar",
+    115,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/musk-dhoop-sticks",
+    "https://static.wixstatic.com/media/906937_f9f3c2a75ea4457789af0f83edc4bbec~mv2.jpeg"
+  ],
+  [
+    26,
+    "Southern Star Incense Sticks (Agarbatti)",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/southern-star-incense-sticks",
+    "https://static.wixstatic.com/media/906937_b0b81b4d9ce1466da922e83cc91df10a~mv2.jpeg"
+  ],
+  [
+    27,
+    "Jasmine Dhoop Sticks | Jasmine Dhoopbatti",
+    "Dhoop Sticks",
+    "150g jar",
+    115,
+    "Out of Stock",
+    "https://www.amruthaaromatics.com/product-page/jasmine-dhoop-sticks",
+    "https://static.wixstatic.com/media/906937_6f5cf5fd7a934578b6741709f08cd26a~mv2.jpeg"
+  ],
+  [
+    28,
+    "Kewda Incense Sticks | Kewda Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/kewda-incense-sticks",
+    "https://static.wixstatic.com/media/906937_35fd5b43799a425d9835f7a8251ef3db~mv2.jpeg"
+  ],
+  [
+    29,
+    "Firdous Dhoop Sticks | Firdous Dhoopbatti",
+    "Dhoop Sticks",
+    "150g jar",
+    115,
+    "Out of Stock",
+    "https://www.amruthaaromatics.com/product-page/firdous-dhoop-sticks",
+    "https://static.wixstatic.com/media/906937_8438076b35de4a2e9e56f6132d041fa3~mv2.jpeg"
+  ],
+  [
+    30,
+    "Rajanigandha Incense Sticks | Rajanigandha Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/rajanigandha-incense-sticks",
+    "https://static.wixstatic.com/media/906937_00ebc84544ae443ca2a5bb14fef1159c~mv2.jpeg"
+  ],
+  [
+    31,
+    "Herbal Incense Sticks | Herbal Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/herbal-incense-sticks",
+    "https://static.wixstatic.com/media/906937_7c53a6946faa4a63af85879a0c957331~mv2.jpeg"
+  ],
+  [
+    32,
+    "Sugandh Dhoop Sticks | Sugandh Dhoopbatti",
+    "Dhoop Sticks",
+    "150g jar",
+    115,
+    "Out of Stock",
+    "https://www.amruthaaromatics.com/product-page/sugandh-dhoop-sticks",
+    "https://static.wixstatic.com/media/906937_75a08c479bb84bfc873402bf3f143e9e~mv2.jpeg"
+  ],
+  [
+    33,
+    "Regalia Incense Sticks | Regalia Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/regalia-incense-sticks",
+    "https://static.wixstatic.com/media/906937_fca57224273548ab841c89847f6e1289~mv2.jpeg"
+  ],
+  [
+    34,
+    "Shahi Kasturi Incense Sticks | Shahi Kasturi Agarbatti",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/shahi-kasturi-incense-sticks",
+    "https://static.wixstatic.com/media/906937_f692e9b049d74536b6a428931dc71381~mv2.jpeg"
+  ],
+  [
+    35,
+    "Shahi Gulab Agarbatti (Incense Sticks)",
+    "Agarbatti (Incense Sticks)",
+    "115g zipper pack",
+    70,
+    "In Stock",
+    "https://www.amruthaaromatics.com/product-page/shahi-gulab-incense-sticks",
+    "https://static.wixstatic.com/media/906937_3f9bb8fc031b41e6aa85af31d1594c29~mv2.jpeg"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "Source: https://www.amruthaaromatics.com/category/all-products (page 2 of 2, 35 products). Prices as listed; 10% off orders above ₹300.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+]

@@ -53,45 +53,145 @@
     "unitBox": "పెట్టెకు",
     "pack": "ప్యాక్‌కు",
     "perKg": "సెట్‌కు",
-    "sandalAgarbatti": {
-      "name": "చందన అగరబత్తి",
-      "description": "రోజువారీ పూజకు దేవాలయ నాణ్యత గల చందన అగరబత్తులు"
+    "sambraniCup": {
+      "name": "Sambrani Cup",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Sambrani Cup"
     },
-    "roseAgarbatti": {
-      "name": "రోజా అగరబత్తి",
-      "description": "ఇంటి గుడికి మృదువైన గులాబీ సువాసన అగరబత్తి"
+    "kewdaIncenseCones": {
+      "name": "Kewda Incense Cones",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Kewda Incense Cones — 80g jar"
     },
-    "jasmineAgarbatti": {
-      "name": "మల్లె అగరబత్తి",
-      "description": "సాయంత్రం ఆరతికి తాజా మల్లె సువాసన"
+    "sandalIncenseCones": {
+      "name": "Sandal Incense Cones",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Sandal Incense Cones — 80g jar"
     },
-    "lobanDhoop": {
-      "name": "లోబాన్ ధూపం",
-      "description": "పవిత్ర ధూపం కోసం సాంప్రదాయ లోబాన్ రెసిన్ ధూపం"
+    "muskIncenseCones": {
+      "name": "Musk Incense Cones",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Musk Incense Cones — 80g jar"
     },
-    "guggulDhoop": {
-      "name": "గుగ్గులం ధూపం",
-      "description": "హవనం మరియు అభిషేకంలో ఉపయోగించే శుభకరమైన గుగ్గులం ధూపం"
+    "mograIncenseCones": {
+      "name": "Mogra Incense Cones",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Mogra Incense Cones — 80g jar"
     },
-    "sambraniCups": {
-      "name": "సంబ్రాణి కప్పులు",
-      "description": "పండుగ సువాసనకు వెంటనే వెలిగించే సంబ్రాణి కప్పులు"
+    "firdousIncenseCones": {
+      "name": "Firdous Incense Cones",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Firdous Incense Cones — 80g jar"
     },
-    "dryDhoopSticks": {
-      "name": "పొడి ధూపం కర్రలు",
-      "description": "రోజువారీ పూజకు ఎక్కువసేపు మండే పొడి ధూపం కర్రలు"
+    "sugandhIncenseCones": {
+      "name": "Sugandh Incense Cones",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Sugandh Incense Cones — 80g jar"
     },
-    "heenaAgarbatti": {
-      "name": "హీనా అగరబత్తి",
-      "description": "గాఢమైన హీనా సువాసన అగరబత్తి ప్యాక్"
+    "gulabIncenseCones": {
+      "name": "Gulab Incense Cones",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Gulab Incense Cones — 80g jar"
     },
-    "premiumTempleIncense": {
-      "name": "ప్రీమియం దేవాలయ అగరబత్తి",
-      "description": "దేవాలయాల్లో ఇష్టపడే దట్టమైన, ఎక్కువసేపు మండే అగరబత్తి"
+    "lavenderIncenseCones": {
+      "name": "Lavender Incense Cones",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Lavender Incense Cones — 80g"
     },
-    "nagChampa": {
-      "name": "నాగ్ చంపా",
-      "description": "వెచ్చని పూల సువాసనతో క్లాసిక్ నాగ్ చంపా అగరబత్తి"
+    "phalamruthaIncenseSticks": {
+      "name": "Phalamrutha Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Phalamrutha Incense Sticks — 120g zipper pack"
+    },
+    "belaAndMimosaIncenseSticks": {
+      "name": "Bela and Mimosa Incense Sticks (Agarbatti)",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Bela and Mimosa Incense Sticks (Agarbatti) — 110g zipper pack"
+    },
+    "panchamruthaIncenseSticks": {
+      "name": "Panchamrutha Incense Sticks (Agarbatti)",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Panchamrutha Incense Sticks (Agarbatti) — 240g zipper pack"
+    },
+    "special4IncenseSticks": {
+      "name": "Special 4 Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Special 4 Incense Sticks — 200g zipper pack"
+    },
+    "sugandhIncenseSticks": {
+      "name": "Sugandh Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Sugandh Incense Sticks — 115g zipper pack"
+    },
+    "goldenFlowersIncenseSticks": {
+      "name": "Golden Flowers Incense Sticks (Agarbatti)",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Golden Flowers Incense Sticks (Agarbatti) — 115g zipper pack"
+    },
+    "mograIncenseSticks": {
+      "name": "Mogra Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Mogra Incense Sticks — 115g zipper pack"
+    },
+    "firdousIncenseSticks": {
+      "name": "Firdous Incense Sticks (Agarbatti)",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Firdous Incense Sticks (Agarbatti) — 115g zipper pack"
+    },
+    "n3In1IncenseSticks": {
+      "name": "3 in 1 Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు 3 in 1 Incense Sticks — 114g zipper pack"
+    },
+    "lavenderIncenseSticks": {
+      "name": "Lavender Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Lavender Incense Sticks — 115g zipper pack"
+    },
+    "shahiGulabDhoopSticks": {
+      "name": "Shahi Gulab Dhoop Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Shahi Gulab Dhoop Sticks — 150g jar. ప్రస్తుతం స్టాక్‌లో లేదు."
+    },
+    "sandalwoodDhoopSticks": {
+      "name": "Sandalwood Dhoop Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Sandalwood Dhoop Sticks — 150g jar"
+    },
+    "champaIncenseSticks": {
+      "name": "Champa Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Champa Incense Sticks — 115g zipper pack"
+    },
+    "lavenderDhoopSticks": {
+      "name": "Lavender Dhoop Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Lavender Dhoop Sticks — 150g jar"
+    },
+    "sandalIncenseSticks": {
+      "name": "Sandal Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Sandal Incense Sticks — 115g zipper pack"
+    },
+    "muskDhoopSticks": {
+      "name": "Musk Dhoop Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Musk Dhoop Sticks — 150g jar"
+    },
+    "southernStarIncenseSticks": {
+      "name": "Southern Star Incense Sticks (Agarbatti)",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Southern Star Incense Sticks (Agarbatti) — 115g zipper pack"
+    },
+    "jasmineDhoopSticks": {
+      "name": "Jasmine Dhoop Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Jasmine Dhoop Sticks — 150g jar. ప్రస్తుతం స్టాక్‌లో లేదు."
+    },
+    "kewdaIncenseSticks": {
+      "name": "Kewda Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Kewda Incense Sticks — 115g zipper pack"
+    },
+    "firdousDhoopSticks": {
+      "name": "Firdous Dhoop Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Firdous Dhoop Sticks — 150g jar. ప్రస్తుతం స్టాక్‌లో లేదు."
+    },
+    "rajanigandhaIncenseSticks": {
+      "name": "Rajanigandha Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Rajanigandha Incense Sticks — 115g zipper pack"
+    },
+    "herbalIncenseSticks": {
+      "name": "Herbal Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Herbal Incense Sticks — 115g zipper pack"
+    },
+    "sugandhDhoopSticks": {
+      "name": "Sugandh Dhoop Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Sugandh Dhoop Sticks — 150g jar. ప్రస్తుతం స్టాక్‌లో లేదు."
+    },
+    "regaliaIncenseSticks": {
+      "name": "Regalia Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Regalia Incense Sticks — 115g zipper pack"
+    },
+    "shahiKasturiIncenseSticks": {
+      "name": "Shahi Kasturi Incense Sticks",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Shahi Kasturi Incense Sticks — 115g zipper pack"
+    },
+    "shahiGulabIncenseSticks": {
+      "name": "Shahi Gulab Agarbatti (Incense Sticks)",
+      "description": "రోజువారీ పూజ & ఇంటి సువాసనకు Shahi Gulab Agarbatti (Incense Sticks) — 115g zipper pack"
     },
     "clayDiyaSet": {
       "name": "మట్టి దీపాల సెట్",
@@ -105,22 +205,6 @@
       "name": "పంచముఖ దీపం",
       "description": "ప్రత్యేక పూజలకు పంచముఖ ఇత్తడి దీపం"
     },
-    "hangingLamp": {
-      "name": "వేలాడే దీపం",
-      "description": "ఇంటి గుడికి సాంప్రదాయ వేలాడే నూనె దీపం"
-    },
-    "deepamStand": {
-      "name": "దీపం స్టాండ్",
-      "description": "ఎత్తైన దీపానికి స్థిరమైన ఇత్తడి స్టాండ్"
-    },
-    "akhandDiya": {
-      "name": "అఖండ దీపం",
-      "description": "మూతతో ఎక్కువసేపు మండే అఖండ దీప పాత్ర"
-    },
-    "decorativeDiyaBox": {
-      "name": "అలంకార దీపాల పెట్టె",
-      "description": "దీపావళి మరియు కార్తీకానికి సిద్ధంగా ఉన్న రంగు దీపాలు"
-    },
     "cottonWicksPack": {
       "name": "పత్తి వత్తుల ప్యాక్",
       "description": "నూనె మరియు నెయ్యి దీపాలకు మృదువైన పత్తి వత్తులు"
@@ -129,73 +213,33 @@
       "name": "రోజువారీ పూజా కిట్",
       "description": "ఉదయం మరియు సాయంత్రం ఇంటి పూజకు పూర్తి కిట్"
     },
-    "satyanarayanaKit": {
-      "name": "సత్యనారాయణ వ్రతం కిట్",
-      "description": "ఇంట్లో సత్యనారాయణ పూజకు అవసరమైన అన్ని వస్తువులు"
-    },
-    "ganeshChaturthiKit": {
-      "name": "గణేశ చతుర్థి కిట్",
-      "description": "గణపతి ప్రతిష్ఠ మరియు విసర్జన అవసరాలు"
-    },
     "lakshmiPujaKit": {
       "name": "లక్ష్మీ పూజా కిట్",
       "description": "వరలక్ష్మి మరియు శుక్రవారం లక్ష్మీ పూజ ప్యాక్"
     },
-    "navagrahaKit": {
-      "name": "నవగ్రహ కిట్",
-      "description": "నవగ్రహ శాంతి మరియు గ్రహ దోష పూజ వస్తువులు"
+    "satyanarayanaKit": {
+      "name": "సత్యనారాయణ వ్రతం కిట్",
+      "description": "ఇంట్లో సత్యనారాయణ పూజకు అవసరమైన అన్ని వస్తువులు"
     },
     "grihaPraveshKit": {
       "name": "గృహప్రవేశ కిట్",
       "description": "గృహప్రవేశ పూజా సామగ్రి ఒకే సెట్‌లో"
     },
-    "weddingPujaKit": {
-      "name": "పెళ్లి పూజా కిట్",
-      "description": "ముహూర్తం మరియు పెళ్లి సంప్రదాయాలకు అవసరమైన వస్తువుల బండిల్"
-    },
-    "festivalEssentialsKit": {
-      "name": "పండుగ అవసరాల కిట్",
-      "description": "సంక్రాంతి, దసరా మరియు ఇతర పండుగలకు సౌకర్యవంతమైన కిట్"
-    },
     "brassKalash": {
       "name": "ఇత్తడి కలశం",
       "description": "కలశ స్థాపనకు సాంప్రదాయ ఇత్తడి కలశం"
-    },
-    "copperKalash": {
-      "name": "రాగి కలశం",
-      "description": "అభిషేకానికి ఇష్టపడే స్వచ్ఛమైన రాగి కలశం"
-    },
-    "brassBell": {
-      "name": "ఇత్తడి గంట",
-      "description": "ఆరతికి స్పష్టమైన శబ్దంతో ఇత్తడి ఘంట"
     },
     "pujaThaliSet": {
       "name": "పూజా థాలీ సెట్",
       "description": "గిన్నెలు మరియు చెంచాలతో పూర్తి ఇత్తడి థాలీ"
     },
-    "copperLota": {
-      "name": "రాగి లోటా",
-      "description": "పవిత్ర జలానికి చేతితో తయారైన రాగి లోటా"
-    },
-    "brassAartiPlate": {
-      "name": "ఇత్తడి ఆరతి పళ్ళెం",
-      "description": "దీపం పట్టుకునే విస్తృత ఆరతి పళ్ళెం"
+    "brassBell": {
+      "name": "ఇత్తడి గంట",
+      "description": "ఆరతికి స్పష్టమైన శబ్దంతో ఇత్తడి ఘంట"
     },
     "ganeshBrassIdol": {
       "name": "గణేశ ఇత్తడి విగ్రహం",
       "description": "ఇంటి గుడికి ఆశీర్వదించబడిన ఇత్తడి గణేశ మూర్తి"
-    },
-    "lakshmiBrassIdol": {
-      "name": "లక్ష్మీ ఇత్తడి విగ్రహం",
-      "description": "సంపద పూజకు దేవి లక్ష్మీ ఇత్తడి మూర్తి"
-    },
-    "shivaLingamStand": {
-      "name": "శివలింగం స్టాండ్",
-      "description": "అభిషేకానికి జలధార స్టాండ్‌తో లింగం"
-    },
-    "copperPanchapatra": {
-      "name": "రాగి పంచపాత్ర",
-      "description": "స్వచ్ఛమైన రాగిలో పంచపాత్ర మరియు ఉద్ధరణి సెట్"
     },
     "pureKumkum": {
       "name": "శుద్ధ కుంకుమ",
@@ -205,94 +249,45 @@
       "name": "పసుపు పొడి",
       "description": "ఆచారాలు మరియు కళ్యాణానికి ప్రకాశవంతమైన పసుపు పొడి"
     },
-    "vibhutiPack": {
-      "name": "విభూతి ప్యాక్",
-      "description": "శివ భక్తులకు పవిత్ర విభూతి భస్మం"
-    },
     "chandanPowder": {
       "name": "చందనం పొడి",
       "description": "తిలకానికి చల్లని చందనం పొడి"
-    },
-    "gulalColors": {
-      "name": "గులాల్ రంగులు",
-      "description": "శుభకరమైన రంగుల్లో హెర్బల్ పండుగ గులాల్"
-    },
-    "riceAkshata": {
-      "name": "బియ్యం అక్షత",
-      "description": "ఆశీర్వాదాలు మరియు అశీర్వాదం కోసం పసుపు రంగు బియ్యం"
-    },
-    "sindhoorBox": {
-      "name": "సింధూరం పెట్టె",
-      "description": "మాంగల్య ఆచారాలకు సాంప్రదాయ సింధూరం"
-    },
-    "abhishekamPowderSet": {
-      "name": "అభిషేకం పొడుల సెట్",
-      "description": "దేవతా అభిషేకానికి వివిధ పొడులు"
-    },
-    "sesameOil": {
-      "name": "నువ్వుల నూనె",
-      "description": "దీపం వెలిగించడానికి చల్లని పిండి నువ్వుల నూనె"
-    },
-    "coconutOilPuja": {
-      "name": "కొబ్బరి నూనె (పూజ)",
-      "description": "దీపాలు మరియు అభ్యంగనకు శుద్ధ కొబ్బరి నూనె"
-    },
-    "gheeDeepam": {
-      "name": "దీపం నెయ్యి",
-      "description": "నందా దీపానికి అనువైన శుద్ధ ఆవు నెయ్యి"
     },
     "camphorTablets": {
       "name": "కర్పూరం టాబ్లెట్లు",
       "description": "ఆరతికి త్వరగా వెలిగే కర్పూరం టాబ్లెట్లు"
     },
-    "camphorBlocks": {
-      "name": "కర్పూరం బ్లాకులు",
-      "description": "దేవాలయ శైలి ఆరతికి పెద్ద కర్పూరం బ్లాకులు"
+    "sesameOil": {
+      "name": "నువ్వుల నూనె",
+      "description": "దీపం వెలిగించడానికి చల్లని పిండి నువ్వుల నూనె"
     },
-    "roseWater": {
-      "name": "గులాబీ నీరు",
-      "description": "అష్టోత్తరం మరియు అభిషేకానికి సువాసన గులాబీ నీరు"
-    },
-    "sandalOil": {
-      "name": "చందన నూనె",
-      "description": "దేవతా అభ్యంగనకు సాంద్ర చందన నూనె"
-    },
-    "havanGhee": {
-      "name": "హవన నెయ్యి",
-      "description": "హోమం మరియు హవనానికి తయారైన ఆచార నెయ్యి"
-    },
-    "rudrakshaMala": {
-      "name": "రుద్రాక్ష మాల",
-      "description": "జపం మరియు ధ్యానానికి 108 పూసల రుద్రాక్ష మాల"
-    },
-    "sacredThread": {
-      "name": "యజ్ఞోపవీతం",
-      "description": "పత్తి జనేయు / పవిత్ర దారం ప్యాక్"
-    },
-    "turmericCloth": {
-      "name": "పసుపు వస్త్రం",
-      "description": "దేవతా అలంకారానికి పసుపు రంగు వస్త్రం"
+    "gheeDeepam": {
+      "name": "దీపం నెయ్యి",
+      "description": "నందా దీపానికి అనువైన శుద్ధ ఆవు నెయ్యి"
     },
     "havanSamagri": {
       "name": "హవన సామగ్రి",
       "description": "హవన అగ్నికి మిశ్రమ మూలికలు మరియు కర్రలు"
     },
+    "rudrakshaMala": {
+      "name": "రుద్రాక్ష మాల",
+      "description": "జపం మరియు ధ్యానానికి 108 పూసల రుద్రాక్ష మాల"
+    },
     "agarbattiStand": {
       "name": "అగరబత్తి స్టాండ్",
       "description": "బూడిద పట్టే ఇత్తడి అగరబత్తి హోల్డర్"
     },
-    "pujaBellSmall": {
-      "name": "చిన్న పూజా గంట",
-      "description": "ప్రయాణం మరియు చిన్న గుడులకు చిన్న ఇత్తడి గంట"
-    },
-    "coconutSet": {
-      "name": "కొబ్బరి నైవేద్య సెట్",
-      "description": "మామిడి ఆకుల శైలితో కొబ్బరి నైవేద్య ప్యాక్"
-    },
-    "betelNutPack": {
-      "name": "వక్క ప్యాక్",
-      "description": "సాంప్రదాయ నైవేద్యాలకు సుపారి ప్యాక్"
-    }
+    "homePreviewDesc": "ఇంసెన్స్, కిట్లు మరియు పవిత్ర అవసరాల ఎంపిక — మరిన్నివి పూర్తి కేటలాగ్‌ని చూడండి.",
+    "viewMore": "మరిన్ని ఉత్పత్తులు చూడండి",
+    "viewMoreHint": "ఫిల్టర్లు & శోధనతో అన్ని ఉత్పత్తులు చూడండి",
+    "catalogTitle": "అన్ని ఉత్పత్తులు",
+    "catalogDescription": "మా పూర్తి పూజా & అరోమాటిక్స్ సేకరణను శోధించి ఫిల్టర్ చేయండి.",
+    "searchPlaceholder": "ఉత్పత్తులను శోధించండి...",
+    "clearSearch": "శోధనను క్లియర్ చేయండి",
+    "resultsCount": "{count, plural, =0 {ఉత్పత్తులు లేవు} =1 {1 ఉత్పత్తి} other {# ఉత్పత్తులు}}",
+    "noResultsTitle": "ఉత్పత్తులు కనుగొనలేదు",
+    "noResultsDesc": "వేరే శోధన పదం ప్రయత్నించండి లేదా ఫిల్టర్లను రీసెట్ చేయండి.",
+    "resetFilters": "ఫిల్టర్లను రీసెట్ చేయండి"
   },
   "about": {
     "tag": "మా కథ",
@@ -576,5 +571,17 @@
       "title": "ఇన్‌వాయిస్ సృష్టించండి",
       "description": "కౌంటర్, వాట్సాప్‌లో లేదా బల్క్ ఆర్డర్లకు అన్నపూర్ణ పూజా ప్రొడక్ట్స్ టాక్స్ ఇన్‌వాయిస్ రూపొందించండి."
     }
+  },
+  "productDetail": {
+    "backToProducts": "ఉత్పత్తులకు తిరిగి",
+    "packSize": "ప్యాక్ పరిమాణం",
+    "category": "వర్గం",
+    "inStock": "స్టాక్‌లో ఉంది",
+    "outOfStock": "స్టాక్‌లో లేదు",
+    "addToCart": "కార్ట్‌కు జోడించండి",
+    "viewCart": "కార్ట్ చూడండి",
+    "relatedTitle": "సంబంధిత ఉత్పత్తులు",
+    "relatedSubtitle": "మీ ఎంపికతో కలిపి కొనండి — పూజా బాస్కెట్ తయారు చేసుకోండి",
+    "quantity": "పరిమాణం"
   }
 }

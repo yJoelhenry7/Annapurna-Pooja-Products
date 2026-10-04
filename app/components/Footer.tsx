@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import { FaWhatsapp, FaHeart } from "react-icons/fa";
 import { MdPhone, MdLocationOn } from "react-icons/md";
-import { useTranslations } from 'next-intl';
+import Link from "next/link";
+import { useLocale, useTranslations } from 'next-intl';
 import {
   GOOGLE_BUSINESS_URL,
   PHONE_DISPLAY,
@@ -17,17 +18,18 @@ export default function Footer() {
   const t = useTranslations('footer');
   const tNav = useTranslations('nav');
   const tProducts = useTranslations('products');
+  const locale = useLocale();
 
   const quickLinks = [
-    { name: tNav('home'), href: "#home" },
-    { name: tNav('products'), href: "#products" },
-    { name: tNav('about'), href: "#about" },
-    { name: tNav('contact'), href: "#contact" },
+    { name: tNav('home'), href: `/${locale}` },
+    { name: tNav('products'), href: `/${locale}/products` },
+    { name: tNav('about'), href: `/${locale}/#about` },
+    { name: tNav('contact'), href: `/${locale}/#contact` },
   ];
 
   const popularSweets = [
     tProducts('dailyPujaKit.name'),
-    tProducts('sandalAgarbatti.name'),
+    tProducts('sandalIncenseSticks.name'),
     tProducts('brassKalash.name'),
     tProducts('lakshmiPujaKit.name'),
     tProducts('pujaThaliSet.name'),
@@ -82,7 +84,7 @@ export default function Footer() {
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
                 <li key={index}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-[var(--ink)]/75 hover:text-[var(--gold)] transition-colors duration-300 inline-flex items-center group"
                   >
@@ -90,7 +92,7 @@ export default function Footer() {
                       →
                     </span>
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -108,13 +110,13 @@ export default function Footer() {
             <ul className="space-y-3">
               {popularSweets.map((sweet, index) => (
                 <li key={index}>
-                  <a
-                    href="#products"
+                  <Link
+                    href={`/${locale}/products`}
                     className="text-[var(--ink)]/75 hover:text-[var(--gold)] transition-colors duration-300 inline-flex items-center group"
                   >
                     <span className="mr-2 text-[var(--gold)]">✦</span>
                     {sweet}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

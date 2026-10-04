@@ -56,7 +56,10 @@ export const SELLER = {
 
 export const PRODUCT_PRESETS: { name: string; unit: InvoiceUnit; rate: number }[] =
   [
-    { name: "Sandal Agarbatti", unit: "pack", rate: 120 },
+    { name: "Sambrani Cup", unit: "pack", rate: 84 },
+    { name: "Sandal Incense Sticks", unit: "pack", rate: 70 },
+    { name: "Phalamrutha Incense Sticks", unit: "pack", rate: 70 },
+    { name: "Sandalwood Dhoop Sticks", unit: "pack", rate: 115 },
     { name: "Daily Puja Kit", unit: "pack", rate: 499 },
     { name: "Brass Kalash", unit: "piece", rate: 550 },
     { name: "Brass Diya", unit: "piece", rate: 350 },
@@ -66,9 +69,6 @@ export const PRODUCT_PRESETS: { name: string; unit: InvoiceUnit; rate: number }[
     { name: "Pure Kumkum", unit: "pack", rate: 60 },
     { name: "Sesame Oil", unit: "piece", rate: 160 },
     { name: "Havan Samagri", unit: "pack", rate: 200 },
-    { name: "Ganesh Brass Idol", unit: "piece", rate: 850 },
-    { name: "Festival Essentials Kit", unit: "pack", rate: 599 },
-    { name: "Deepam Ghee", unit: "piece", rate: 280 },
   ];
 
 export function createLineId() {
