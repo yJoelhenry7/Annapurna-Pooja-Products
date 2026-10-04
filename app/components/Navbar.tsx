@@ -42,7 +42,7 @@ export default function Navbar() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex-shrink-0"
+            className="-ml-2 flex-shrink-0 sm:-ml-3 lg:-ml-4"
           >
             <a href="#home" className="flex items-center">
               <div className="relative h-28 w-56 md:h-24 md:w-64">
@@ -50,7 +50,7 @@ export default function Navbar() {
                   src={LOGO_SRC}
                   alt="Annapurna Pooja Products"
                   fill
-                  className="object-contain drop-shadow-lg"
+                  className="object-contain object-left drop-shadow-lg"
                   priority
                   unoptimized
                   sizes="(max-width: 768px) 224px, 256px"
